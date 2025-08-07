@@ -1,0 +1,2910 @@
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="/common/styles/FPDSstyle_blue.css" rel="stylesheet" type="text/css"/>
+<meta content="Fri, Jun 12 1981 08:20:00 GMT" http-equiv="Expires"/>
+<meta content="no-cache" http-equiv="Pragma"/>
+<script src="/JavaScriptServlet"></script>
+<title id="pageTitle">FPDS-NG : ICDUSER [ Award ]</title>
+<script src="/common/scripts/prototype.js" type="text/javascript"></script>
+<script src="/common/scripts/ws.js" type="text/javascript"></script>
+<script src="/common/scripts/WhiteSpace.js" type="text/javascript"></script>
+<script src="/common/scripts/FPDS.js" type="text/javascript"></script>
+<script src="/common/scripts/Country.js" type="text/javascript"></script>
+<script src="/common/scripts/State.js" type="text/javascript"></script>
+<script src="/common/scripts/vendor.js" type="text/javascript"></script>
+<script id="ContractJS" name="ContractJS" src="/common/scripts/Contract.js?version=null&amp;content=.js" type="text/javascript"></script>
+<script id="SBA1331JS" name="SBA1331JS" src="/common/scripts/SBA1331.js?version=null&amp;content=.js" type="text/javascript"></script>
+<script src="/common/scripts/charCounter.js" type="text/javascript"></script>
+<script>
+
+			function enableJavascript(form)
+			{
+				form.isJavascriptEnabled.value = 'true';
+			}
+
+		</script>
+</head>
+<body class="MAINBODY" leftmargin="0" marginheight="0" marginwidth="0" onload="enableJavascript(document.awardForm);setOldUEI();objSBA1331.setCurrentState();countChars('descriptionOfContractRequirement','dorCharCount');" topmargin="0" width="775">
+<div align="center">
+<form action="/DataCollection/contracts/jsp/awardBaseController.jsp" method="post" name="awardForm">
+<input disabled="true" name="isJavascriptEnabled" type="hidden" value="false"/>
+<input disabled="true" name="JSVendorCleared" type="hidden" value="false"/>
+<input disabled="true" name="oldUEINumber" type="hidden" value=""/>
+<input disabled="true" id="isVendorInformationPresent" name="isVendorInformationPresent" type="hidden" value="true"/>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="775">
+<tr>
+<td align="center" bgcolor="#3759ac" id="topFixedMenuCell" scope="row" style="display:none;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="topFixedMenuTable" style="border-left:navy 2px solid; border-right:navy 2px groove;" width="775">
+<tr>
+<td id="topFixedMenu" scope="row"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:navy 2px solid;" width="775">
+<tr>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" style="border-left:navy 2px solid; border-right:navy 2px groove; border-bottom:navy 1px groove" width="100%">
+<tr>
+<td scope="row" style="width:1;">
+<input alt="Spacer" id="1by1" name="1by1" specialfield="true" src="/common/images/1by1.gif" style="height:1;" tabindex="-1" type="image" value="" width="0"/>
+</td>
+<td scope="row">
+<input id="actionSource" name="actionSource" readonly="true" specialfield="true" type="hidden" value="awardUIScreen"/>
+<input accesskey="N" disabled="true" id="award_btnNew" name="award_btnNew" specialfield="true" src="/common/images/s_new_disb_80.gif" title=" New " type="image" value="New"/>
+<input accesskey="S" disabled="true" id="award_btnSaveDraft" name="award_btnSaveDraft" specialfield="true" src="/common/images/s_save_draft_disb_80.gif" title=" Save Draft " type="image" value="Save Draft"/>
+<input accesskey="i" disabled="true" id="award_btnValidate" name="award_btnValidate" specialfield="true" src="/common/images/s_validate_disb_80.gif" title=" Validate " type="image" value="Validate"/>
+<input accesskey="p" disabled="true" id="award_btnApprove" name="award_btnApprove" specialfield="true" src="/common/images/s_approve_disb_80.gif" title=" Approve " type="image" value="Approve"/>
+<input accesskey="t" disabled="true" id="award_btnCorrect" name="award_btnCorrect" specialfield="true" src="/common/images/s_correct_disb_80.gif" title=" Correct " type="image" value="Correct"/>
+<input accesskey="y" disabled="true" id="award_btnCreateMod" name="award_btnCreateMod" specialfield="true" src="/common/images/s_modify_disb_80.gif" title=" Modify " type="image" value="Create Mod"/>
+<input accesskey="m" disabled="true" id="award_btnSaveAsTemplete" name="award_btnSaveAsTemplete" specialfield="true" src="/common/images/s_savetmplte_disb_80.gif" title=" Save As Template " type="image" value="Save As Template"/>
+<input accesskey="l" disabled="true" id="award_btnDelete" name="award_btnDelete" specialfield="true" src="/common/images/s_delete_disb_80.gif" title=" Delete " type="image" value="Delete"/>
+<input accesskey="r" alt="Print" id="award_btnPrint" name="award_btnPrint" specialfield="true" src="/common/images/s_print_stat_80.gif" title=" Print " type="image" value="Print"/>
+<input accesskey="C" disabled="true" id="award_btnCloseOut" name="award_btnCloseOut" specialfield="true" src="/common/images/s_close_out_disb_80.gif" title=" Close Out " type="image" value="Close Out"/>
+<input accesskey="E" id="award_btnExit" name="award_btnExit" specialfield="true" src="/common/images/s_exit_stat_80.gif" style="display:none;" title=" Exit " type="image" value="Exit"/>
+<a accesskey="P" href="/help/index.jsp?pageFrom=Awards.htm&amp;group=awards" target="_blank">
+<img alt="Help" border="0" id="help" name="help" src="/common/images/s_help_stat_80.gif" title="Help" value="help"/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" scope="row">
+<div class="MAINBODY" id="docDiv" style="position:relative;left:0;top:0;width:100%;background-color:transparent;border-left:navy 2px solid;border-right:navy 2px groove;border-bottom:navy 2px groove">
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr id="messageDisplayCell" style="display:none;">
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr>
+<td align="center" scope="row">
+<hr/>
+<span align="center" id="messageDisplay" style="color:red;"></span>
+<br/>
+<span align="center" id="closeOutWarnMessageDisplay" style="display:none;"></span>
+<br/>
+<span align="center" id="dollarMessageDisplay" style="display:none;"></span>
+<hr/>
+</td>
+</tr>
+<tr>
+<td align="center" scope="row">
+<span id="specificMessageDisplay" style="display:none;">
+<table border="0" cellpadding="1" cellspacing="0" id="specificMessageDisplayTable" width="100%"></table>
+</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="shead" scope="row">Transaction Information</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr>
+<td scope="row" width="12%">
+<span id="lblDisplayAwardType">Award Type:</span>
+</td>
+<td class="displayText" id="displayAwardType" scope="row" width="13%">Delivery/Task Order</td>
+<td class="sectionseparator"></td>
+<td align="left" scope="row" width="16%">
+<span id="lblDisplayPreparedDate"> Prepared Date:</span>
+</td>
+<td class="displayText" id="displayPreparedDate" scope="row" width="14%">01/29/2020 09:22:04</td>
+<td class="sectionseparator"></td>
+<td scope="row" width="17%">
+<span id="lblDisplayPreparedBy"> Prepared User:</span>
+</td>
+<td class="displayText" id="displayPreparedBy" scope="row" style="halign:left" width="28%">PADDS.W56HZV@CS.ARMY.MIL</td>
+</tr>
+<tr>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblDisplayStatus">Award Status:</span>
+</td>
+<td class="displayText" id="displayStatus" scope="row">Final</td>
+<td class="sectionseparator"></td>
+<td scope="row">
+<span id="lblDisplayLastModifiedDate"> Last Modified Date:</span>
+</td>
+<td class="displayText" id="displayLastModifiedDate" scope="row">01/30/2020 14:16:17</td>
+<td class="sectionseparator"></td>
+<td scope="row">
+<span id="lblDisplayLastModifiedBy"> Last Modified User:</span>
+</td>
+<td class="displayText" id="displayLastModifiedBy" scope="row">PADDS.W56HZV@KO.ARMY.MIL</td>
+</tr>
+<tr>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblDisplayClosedStatus">Closed Status:</span>
+</td>
+<td class="displayText" id="displayClosedStatus" scope="row">No</td>
+<td class="sectionseparator"></td>
+<td scope="row">
+<span id="lblDisplayClosedDate"> Closed Status Date:</span>
+</td>
+<td class="displayText" id="displayClosedDate" scope="row"></td>
+<td class="sectionseparator"></td>
+<td scope="row">
+<span id="lblDisplayClosedBy"> Closed By:</span>
+</td>
+<td class="displayText" id="displayClosedBy" scope="row"></td>
+</tr>
+<!-- NCS-55778 -->
+<tr>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+<td class="sectionseparator"></td>
+<td colspan="2" scope="row"></td>
+</tr>
+<tr>
+<td scope="row"><span id="lblDisplayApprovedPlaceholder"> </span></td>
+<td class="displayText" id="displayApprovedPlaceholder" scope="row"></td>
+<td class="sectionseparator"></td>
+<td scope="row"><span id="lblDisplayApprovedDate"> Approved
+															Date:</span></td>
+<td class="displayText" id="displayApprovedDate" scope="row" value="2020-01-30 14:16:17">01/30/2020 14:16:17</td>
+<td class="sectionseparator"></td>
+<td scope="row"><span id="lblDisplayApprovedBy"> Approved
+															By:</span></td>
+<td class="displayText" id="displayApprovedBy" scope="row" value="PADDS.W56HZV@KO.ARMY.MIL">PADDS.W56HZV@KO.ARMY.MIL</td>
+</tr>
+<!-- NCS-55778 -->
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td class="shead" scope="row">Document Information</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="1" width="100%">
+<tr>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" height="111" width="100%">
+<tr>
+<td scope="row" width="19%"></td>
+<td scope="row" width="12%">
+<table border="0" cellpadding="2" cellspacing="0" height="25" width="55">
+<tr>
+<td align="left" scope="row" width="51">
+<i>Agency</i>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row" width="35%">
+<i>Procurement Identifier</i>
+</td>
+<td scope="row" width="18%">
+<i>Modification No</i>
+</td>
+<td scope="row" width="8%">
+<i>Trans No</i>
+</td>
+<td colspan="3" scope="row"></td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblAgencyID">Award ID:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="agencyddd" id="agencyID" maxlength="4" name="agencyID" readonly="true" size="3" title="Agency ID" type="text" value="9700"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="agencyddd" name="agencyddd" src="/common/images/dot20_stat.gif" title="Agency ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<input class="disabledField" id="PIID" labelid="lblAgencyID" maxlength="50" name="PIID" readonly="true" size="38" style="text-transform:uppercase;" title="Procurement Identifier" type="text" value="0003"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="modNumber" labelid="lblAgencyID" maxlength="25" name="modNumber" readonly="true" size="12" title="Modification Number" type="text" value="25"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="transactionNumber" maxlength="6" name="transactionNumber" readonly="true" size="4" title="Transaction Number" type="text" value="1"/>
+</td>
+<td colspan="3" scope="row"></td>
+</tr>
+<tr>
+<td nowrap="true" scope="row">
+<span id="lblIDVagencyID">Referenced IDV ID:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="idvAgencyID" maxlength="4" name="idvAgencyID" readonly="true" size="3" specialfield="true" title="Indefinite Delivery Vehicle Agency ID" type="text" value="9700"/>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="PIIDdddIDV" id="idvPIID" labelid="lblIDVagencyID" maxlength="50" name="idvPIID" readonly="true" size="38" style="text-transform:uppercase;" title="Indefinite Delivery Vehicle Procurement ID" type="text" value="W56HZV15DRD03"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="PIIDdddIDV" name="PIIDdddIDV" src="/common/images/dot20_stat.gif" title="Indefinite Delivery Vehicle Procurement ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<input class="disabledField" id="idvModNumber" maxlength="15" name="idvModNumber" readonly="true" size="12" specialfield="true" title="IDV Mod Number" type="text" value="0"/>
+</td>
+<td scope="row"></td>
+</tr>
+<tr>
+<td nowrap="true" scope="row">
+<span id="lblReasonForModification">Reason For Modification:</span>
+</td>
+<td colspan="3" scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="textinput" disabled="true" id="reasonForModificationCode" name="reasonForModificationCode" size="5" type="hidden"/>
+<input class="disabledField" dddbtnid="reasonForModificationddd" id="reasonForModification" name="reasonForModification" readonly="true" size="56" specialfield="true" style="text-transform:uppercase;" title="Reason For Modification" type="text" value="Other Administrative Action"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="reasonForModificationddd" name="reasonForModificationddd" src="/common/images/dot20_stat.gif" title="Reason For Modification Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td nowrap="true" scope="row">
+<span id="lblSolicitationID">Solicitation ID:</span>
+</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="solicitationID" maxlength="25" name="solicitationID" readonly="true" size="20" style="text-transform:uppercase;" title="Solicitation ID" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row" width="19%"></td>
+<td colspan="2" scope="row" width="47%">
+<table border="0" cellpadding="2" cellspacing="0" height="25" width="55">
+<tr>
+<td align="left" scope="row" width="25%"><i>Agency Identifier</i></td>
+<td align="left" scope="row" width="40%"><i>Main Account</i></td>
+<td align="left" scope="row" width="35%"><i>Sub Account</i></td>
+</tr>
+</table>
+</td>
+<td colspan="2" scope="row" width="8%">
+<i>Initiative</i>
+</td>
+<td colspan="2" scope="row"></td>
+</tr>
+<tr>
+<td nowrap="true" scope="row" width="19%">
+<span id="lblTreasuryAccountSymbol">Treasury Account Symbol:</span>
+</td>
+<td colspan="2" scope="row">
+<table border="0" cellpadding="0" cellspacing="2" height="25" width="55">
+<tr>
+<td align="left" scope="row" width="25%"><input class="disabledField" id="tasAgencyIdentifier" labelid="lblTreasuryAccountSymbol" maxlength="2" name="tasAgencyIdentifier" readonly="true" size="5" title="TAS Agency Identifier" type="text" value="21"/></td>
+<td align="left" scope="row" width="40%"><input class="disabledField" id="tasMainAccountCode" labelid="lblTreasuryAccountSymbol" maxlength="4" name="tasMainAccountCode" readonly="true" size="5" title="TAS Main Account Code" type="text" value="2040"/></td>
+<td align="left" scope="row" width="35%"><input class="disabledField" id="tasSubAccountCode" labelid="lblTreasuryAccountSymbol" maxlength="3" name="tasSubAccountCode" readonly="true" size="5" title="TAS Sub Account Code" type="text" value=""/></td>
+</tr>
+</table>
+</td>
+<td colspan="2" scope="row" width="8%">
+<select class="disabledField" disabled="true" id="tasInitiative" maxlength="1" name="tasInitiative" size="1" style="font:11px Arial" title="TAS Initiative">
+<option selected="true" value="">Select One</option>
+<option value="ARRA">AMERICAN RECOVERY AND REINVESTMENT ACT</option><option value="RTWS">EO: RADICAL TRANSPARENCY ABOUT WASTEFUL SPENDING</option></select>
+</td>
+<td colspan="2" scope="row"></td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="shead" scope="row" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="shead" scope="row" width="53%">Dates
+											</td>
+<td class="shead" scope="row">Amounts
+											</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr>
+<td scope="row" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row">
+<span id="lblSignedDate">Date Signed
+<i style="font-size:9">(mm/dd/yyyy)</i>
+:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="signedDate" maxlength="10" name="signedDate" onchange="this.blur();objSBA1331.dateSignedKeyUp();" readonly="true" size="15" title="Date Signed (mm/dd/yyyy)" type="text" value="01/30/2020"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblEffectiveDate">Period of Performance Start Date
+<i style="font-size:9">(mm/dd/yyyy)</i>
+:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="effectiveDate" maxlength="10" name="effectiveDate" readonly="true" size="15" title="Period of Performance Start Date (mm/dd/yyyy)" type="text" value="07/09/2018"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblAwardCompletionDate">Completion Date
+																<i style="font-size:9">(mm/dd/yyyy)</i>
+																:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="awardCompletionDate" maxlength="10" name="awardCompletionDate" readonly="true" size="15" title="Award Completion Date (mm/dd/yyyy)" type="text" value="01/15/2021"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblEstimatedUltimateCompletionDate">Est. Ultimate Completion Date
+																<i style="font-size:9">(mm/dd/yyyy)</i>
+																:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="estimatedUltimateCompletionDate" maxlength="10" name="estimatedUltimateCompletionDate" readonly="true" size="15" title="Estimated Ultimate Completion Date (mm/dd/yyyy)" type="text" value="07/30/2025"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblSolicitationDate">Solicitation Date
+																<i style="font-size:9">(mm/dd/yyyy)</i>
+																:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="solicitationDate" maxlength="10" name="solicitationDate" readonly="true" size="15" title="Solicitation Date (mm/dd/yyyy)" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+</table>
+</td>
+<td class="sectionseparator" scope="row" style="width:1px"></td>
+<td scope="row" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row" width="100%">
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr id="modAmounts" style="">
+<td scope="row"></td>
+<td align="center" id="previousAmount" scope="row" style="display:none">Previous</td>
+<td align="center" id="currentAmount" scope="row">Current</td>
+<td align="center" id="totalAmount" scope="row">Total</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblObligatedAmount"> Action Obligation:</span>
+</td>
+<td id="previousObligatedAmountCell" scope="row" style="display:none">
+<input class="disabledField" id="previousObligatedAmount" maxlength="20" name="previousObligatedAmount" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Previous Obligation Amount" type="text"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="obligatedAmount" maxlength="20" name="obligatedAmount" readonly="true" size="15" style="text-align: right;" title="Current Obligation Amount" type="text" value="$0.00"/>
+</td>
+<td id="totalObligatedAmountCell" scope="row" style="">
+<input class="disabledField" id="totalObligatedAmount" maxlength="20" name="totalObligatedAmount" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Total Obligation Amount" type="text" value="$96,949,157.90"/>
+</td>
+</tr>
+<tr>
+<td nowrap="true" scope="row">
+<span id="lblBaseAndExercisedOptionsValue">Base And Exercised Options Value:</span>
+</td>
+<td id="previousBaseAndExercisedOptionsValueCell" scope="row" style="display:none">
+<input class="disabledField" id="previousBaseAndExercisedOptionsValue" maxlength="20" name="previousBaseAndExercisedOptionsValue" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Previous Base And Excercised Options Value" type="text"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="baseAndExercisedOptionsValue" maxlength="20" name="baseAndExercisedOptionsValue" readonly="true" size="15" style="text-align: right;" title="Current Base And Excercised Options Value" type="text" value="$0.00"/>
+</td>
+<td id="totalBaseAndExercisedOptionsValueCell" scope="row" style="display:inline">
+<input class="disabledField" id="totalBaseAndExercisedOptionsValue" maxlength="20" name="totalBaseAndExercisedOptionsValue" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Total Base And Excercised Options Value" type="text" value="$96,949,157.90"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblUltimateContractValue">Base and All Options Value (Total Contract Value):</span>
+</td>
+<td id="previousUltimateContractValueCell" scope="row" style="display:none">
+<input class="disabledField" id="previousUltimateContractValue" maxlength="20" name="previousUltimateContractValue" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Previous Base And All Options Value" type="text"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="ultimateContractValue" maxlength="20" name="ultimateContractValue" readonly="true" size="15" style="text-align: right;" title="Base And All Options Value" type="text" value="$0.00"/>
+</td>
+<td id="totalUltimateContractValueCell" scope="row" style="display:inline">
+<input class="disabledField" id="totalUltimateContractValue" maxlength="20" name="totalUltimateContractValue" readonly="true" size="15" specialfield="true" style="text-align: right;" title="Total Base And All Options Value" type="text" value="$221,939,794.54"/>
+</td>
+</tr>
+<tr id="amountSectionSeparator" style="">
+<td colspan="4" scope="row">
+<table width="100%">
+<tr>
+<td scope="row" style="height:2"></td>
+</tr>
+<tr>
+<td class="sectionseparator" scope="row" style="height:2px;"></td>
+</tr>
+<tr>
+<td scope="row" style="height:2"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblFeesPaidForUseOfService">Fee Paid for Use of IDV:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="feesPaidForUseOfService" maxlength="18" name="feesPaidForUseOfService" readonly="true" size="15" style="text-align: right;" title="Fee Paid For Use of Indefinite Delivery Vehicle" type="text" value="$0.00"/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:2"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="shead" scope="row" width="100%">
+<a name="purchaserInfo">Purchaser Information</a>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr>
+<td scope="row">
+<span id="lblContractingOfficeAgencyID">Contracting Office Agency ID:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="contractingOfficeAgencyddd" id="contractingOfficeAgencyID" maxlength="35" name="contractingOfficeAgencyID" readonly="true" size="10" title="Contracting Office Agency ID" type="text" value="2100"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="contractingOfficeAgencyddd" name="contractingOfficeAgencyddd" src="/common/images/dot20_stat.gif" title="Contracting Office Agency ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<span id="lblContractingOfficeAgencyName">Contracting Office Agency Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="contractingOfficeAgencyName" name="contractingOfficeAgencyName" readonly="true" size="40" specialfield="true" title="Contracting Office Agency Name" type="text" value="DEPT OF THE ARMY"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblContractingOfficeID">Contracting Office ID:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="contractingOfficeddd" id="contractingOfficeID" maxlength="35" name="contractingOfficeID" readonly="true" size="10" title="Contracting Office ID" type="text" value="W56HZV"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="contractingOfficeddd" name="contractingOfficeddd" src="/common/images/dot20_stat.gif" title="Contracting Office ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<span id="lblContractingOfficeName">Contracting Office Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="contractingOfficeName" name="contractingOfficeName" readonly="true" size="40" specialfield="true" title="Contracting Office Name" type="text" value="W4GG HQ US ARMY TACOM"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblFundingRequestingAgencyID">Funding Agency ID:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="fundingRequestingAgencyddd" id="fundingRequestingAgencyID" maxlength="4" name="fundingRequestingAgencyID" readonly="true" size="10" title="Funding or Requesting Agency ID" type="text" value="2100"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="fundingRequestingAgencyddd" name="fundingRequestingAgencyddd" src="/common/images/dot20_stat.gif" title="Funding or Requesting Agency ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<span id="lblFundingRequestingAgencyName">Funding Agency Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="fundingRequestingAgencyName" name="fundingRequestingAgencyName" readonly="true" size="40" specialfield="true" title="Funding or Requesting Agency Name" type="text" value="DEPT OF THE ARMY"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblFundingRequestingOfficeID">Funding Office ID:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="fundingRequestingOfficeddd" id="fundingRequestingOfficeID" maxlength="6" name="fundingRequestingOfficeID" readonly="true" size="10" title="Funding or Requesting Office ID" type="text" value="W91ATL"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="fundingRequestingOfficeddd" name="fundingRequestingOfficeddd" src="/common/images/dot20_stat.gif" title="Funding or Requesting Office ID Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+<td scope="row">
+<span id="lblFundingRequestingOfficeName">Funding Office Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="fundingRequestingOfficeName" name="fundingRequestingOfficeName" readonly="true" size="40" specialfield="true" title="Funding or Requesting Office Name" type="text" value="W4GH CCDC GROUND VEHICLE SYS"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblForeignFunding">Foreign Funding:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="foreignFunding" name="foreignFunding" size="1" style="font:11px Arial" title="Funded By Foreign Entity Flag">
+<option value="">Select One</option>
+<option value="A">Foreign Funds FMS</option><option value="B">Foreign Funds non-FMS</option><option selected="true" value="X">Not Applicable</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="shead" scope="row">
+<a name="contractorInfo">Entity Information</a>
+</td>
+</tr>
+<tr id="ccrVersion">
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr colspan="2">
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td scope="row" width="12%">
+<span id="lblCCRException">FAR 4.1102 Exception:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row" width="60%">
+<input class="textinput" id="exceptionType" name="exceptionType" size="5" type="hidden" value=""/>
+<input class="disabledField" dddbtnid="ccrExceptionddd" id="ccrException" name="ccrException" readonly="true" size="95" style="text-transform:uppercase" title="FAR 4.1102 Exception" type="text" value=""/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="ccrExceptionddd" name="ccrExceptionddd" src="/common/images/dot20_stat.gif" title="FAR 4.1102 Exception Lookup" type="image"/>
+</td>
+<td scope="row"> </td>
+<td scope="row">
+<input disabled="true" id="removeException" name="removeException" src="/common/images/t_remove_except_disb_lg.gif" title="Remove Exception" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr colspan="2">
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td class="sectionseparator" scope="row" style="height:2px;"></td>
+<td class="sectionseparator" scope="row" style="height:2px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0">
+<tr>
+<td align="left" scope="row" valign="top">
+<table border="1" cellpadding="0" cellspacing="0" width="390">
+<div id="refDunsDiv" name="refDunsDiv" style="position:absolute;"></div>
+<div id="dunsMessageDiv" name="dunsMessageDiv" style="position:absolute;"></div>
+<tr>
+<td scope="row" width="140">
+<span id="lblUEINumber">Unique Entity ID:</span>
+</td>
+<td colspan="3" scope="row">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td scope="row" width="30">
+<input class="disabledField" dddbtnid="vendorUEIddd" id="UEINumber" maxlength="12" name="UEINumber" onbeforepaste="fnBeforePaste()" onblur="checkLengthofUEI();" oncut="setUEIasRequiredField()" oninput="populateVendorInformation();" onkeyup="checkKeyUp()" onpaste="fnPaste()" readonly="true" size="20" style="text-transform:uppercase" title="Unique Entity Identifier" type="text" value="FJS8P9C6B368"/>
+</td>
+<td scope="row">
+<input disabled="true" id="vendorUEIddd" name="vendorUEIddd" src="/common/images/dot20_stat.gif" title="Unique Entity ID Lookup" type="image"/>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row" width="140">
+<span id="lblVendorName">Legal Business Name:</span>
+</td>
+<td colspan="3" scope="row">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row" width="30">
+<input class="disabledField" id="vendorName" maxlength="35" name="vendorName" readonly="true" size="36" style="text-transform:uppercase" title="Legal Business Name" type="text" value="DCS CORPORATION"/>
+</td>
+<td align="left" scope="row">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row" width="140">DBAN:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorDoingAsBusinessName" maxsize="80" name="vendorDoingAsBusinessName" readonly="true" size="36" specialfield="true" title="Doing Business As Name" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row" width="140">CAGE Code:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="cageCode" maxsize="80" name="cageCode" readonly="true" size="36" specialfield="true" title="cage Code" type="text" value="1P418"/>
+</td>
+</tr>
+</table>
+</td>
+<td class="sectionseparator" scope="row" style="width: 1px;"></td>
+<td align="left" scope="row" valign="top">
+<table border="1" cellpadding="0" cellspacing="0" width="365">
+<tr>
+<td scope="row">Street:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorStreet" name="vendorStreet" readonly="true" size="36" specialfield="true" title="Entity Street" type="text" value="6909 METRO PARK DR STE 500"/>
+</td>
+</tr>
+<tr>
+<td scope="row">Street2:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorStreet2" name="vendorStreet2" readonly="true" size="36" specialfield="true" title="Entity Street Address 2" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblVendorCity">City:</span>
+</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorCity" name="vendorCity" readonly="true" size="36" specialfield="true" title="Entity City" type="text" value="ALEXANDRIA"/>
+</td>
+</tr>
+<tr>
+<td scope="row">State:</td>
+<td scope="row">
+<input class="disabledField" id="vendorState" name="vendorState" readonly="true" size="2" specialfield="true" title="Entity State" type="text" value="VA"/>
+</td>
+<td scope="row"> </td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row">
+																				Zip: <input class="disabledField" id="vendorZip" name="vendorZip" readonly="true" size="20" specialfield="true" title="Entity Zip" type="text" value="223100000"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblVendorCountry">Country:</span>
+</td>
+<td colspan="3" scope="row">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row" width="30">
+<input class="disabledField" id="vendorCountry" name="vendorCountry" readonly="true" size="35" specialfield="true" type="hidden" value="USA"/>
+<input class="disabledField" id="vendorCountryForDisplay" name="vendorCountryForDisplay" readonly="true" size="36" specialfield="true" title="Entity Country" type="text" value="UNITED STATES"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">Phone:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorPhone" name="vendorPhone" readonly="true" size="14" specialfield="true" title="Entity Phone Number" type="text" value="(571) 227-6263"/>
+</td>
+</tr>
+<tr>
+<td scope="row">Fax No:</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorFax" name="vendorFax" readonly="true" size="14" specialfield="true" title="Entity Fax Number" type="text" value="(571) 227-6001"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblVendorCongressionalDistrict">Congressional  District:</span>
+</td>
+<td colspan="3" scope="row">
+<input class="disabledField" id="vendorCongressionalDistrict" name="vendorCongressionalDistrict" readonly="true" size="36" specialfield="true" title="Entity Congressional District" type="text" value=" "/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="1" cellpadding="0" cellspacing="0" class="sshead" width="100%">
+<tr>
+<td align="left" class="sshead">Business Category</td>
+<td align="right" class="sshead"><input disabled="true" id="showDetails" name="showDetails" src="/common/images/84_showdetails_stat.gif" type="image"/></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="100%" valign="top" width="38%">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" scope="row">Organization Type:</td>
+<td colspan="2" scope="row">
+																	 <input class="disabledField" id="organizationType" maxlength="30" name="organizationType" readonly="true" specialfield="true" title="Organization Type" type="text" value="CORPORATE NOT TAX EXEMPT"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" scope="row">State of Incorporation:</td>
+<td colspan="2" scope="row">
+																	 <input class="disabledField" id="stateOfIncorporation" maxlength="150" name="stateOfIncorporation" readonly="true" specialfield="true" title="State of Incorporation" type="text" value="VA"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" scope="row">Country of Incorporation:</td>
+<td colspan="2" scope="row">
+																	 <input class="disabledField" id="countryOfIncorporation" maxlength="150" name="countryOfIncorporation" readonly="true" specialfield="true" title="Country of Incorporation" type="text" value="USA"/>
+</td>
+</tr>
+</table>
+</td>
+<td class="sectionseparator"> </td>
+<td valign="top" width="62%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="75%">
+<div id="vendorSummary" name="vendorSummary"><?xml version="1.0" encoding="UTF-8"?><table border="0" cellpadding="3" cellspacing="0" xmlns:ns1="https://www.fpds.gov/FPDS">
+<tr style="display:none;">
+<td valign="top"></td>
+</tr>
+<tr>
+<td valign="top">Business Types</td>
+</tr>
+<tr>
+<td class="displayText" valign="top">
+<li class="liWithoutType">
+<img src="/common/images/checkmark_01.gif">Corporate Entity, Not Tax Exempt</img></li>
+</td>
+</tr>
+<tr>
+<td valign="top">Relationship With Federal Government</td>
+</tr>
+<tr>
+<td class="displayText" valign="top">
+<li class="liWithoutType">
+<img src="/common/images/checkmark_01.gif"/>All Awards</li>
+</td>
+</tr>
+<tr>
+<td valign="top">Organization Factors</td>
+</tr>
+<tr>
+<td class="displayText" valign="top">
+<li class="liWithoutType">
+<img src="/common/images/checkmark_01.gif"/>For Profit Organization</li>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td valign="middle" width="25%"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="vendorDetails" style="display:none" width="100%">
+<td width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Business Types</td>
+<td align="right" class="sshead">
+<img alt="Business Types Expand/Collapse" id="btcollapse" onclick="javascript:collapse('btcollapse','busTypes','busTypestr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="busTypestr">
+<td>
+<div id="busTypes">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Business Types -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="federalGovernmentFlag" name="federalGovernmentFlag" readonly="true" specialfield="true" title="U.S. Federal Government" type="checkbox" value="ON"/>
+<input id="pJSfederalGovernmentFlag" name="pJSfederalGovernmentFlag" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						U.S. Federal Government
+																					</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input disabled="true" id="federalAgency" name="federalAgency" readonly="true" specialfield="true" title="Federal Agency" type="checkbox" value="ON"/>
+<input id="pJSfederalAgency" name="pJSfederalAgency" type="hidden" value="false"/>
+</td>
+<td>
+																						Federal Agency
+																					</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input disabled="true" id="federallyFundedRAndDCorp" name="federallyFundedRAndDCorp" readonly="true" specialfield="true" title="Federally Funded Research and Development Corp" type="checkbox" value="ON"/>
+<input id="pJSfederallyFundedRAndDCorp" name="pJSfederallyFundedRAndDCorp" type="hidden" value="false"/>
+</td>
+<td>
+																						Federally Funded Research and Development Corp
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="stateGovernmentFlag" name="stateGovernmentFlag" readonly="true" specialfield="true" title="U.S. State Government" type="checkbox" value="ON"/>
+<input id="pJSstateGovernmentFlag" name="pJSstateGovernmentFlag" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						U.S. State Government
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="foreignGovernment" name="foreignGovernment" readonly="true" specialfield="true" title="Foreign Government" type="checkbox" value="ON"/>
+<input id="pJSforeignGovernment" name="pJSforeignGovernment" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						Foreign Government
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="tribalGovernmentFlag" name="tribalGovernmentFlag" readonly="true" specialfield="true" title="U.S. Tribal Government" type="checkbox" value="ON"/>
+<input id="pJStribalGovernmentFlag" name="pJStribalGovernmentFlag" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						U.S. Tribal Government
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="communityCorpOwnedFirm" name="communityCorpOwnedFirm" readonly="true" specialfield="true" title="Community Development Corporation-Owned Concern" type="checkbox" value="ON"/>
+<input id="pJScommunityCorpOwnedFirm" name="pJScommunityCorpOwnedFirm" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						Community Development Corporation-Owned Concern
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="localGovernmentFlag" name="localGovernmentFlag" readonly="true" specialfield="true" title="U.S. Local Government" type="checkbox" value="ON"/>
+<input id="pJSlocalGovernmentFlag" name="pJSlocalGovernmentFlag" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						U.S. Local Government
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="city" name="city" readonly="true" specialfield="true" title="City" type="checkbox" value="ON"/>
+<input id="pJScity" name="pJScity" type="hidden" value="false"/>
+</td>
+<td>
+																						City
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="county" name="county" readonly="true" specialfield="true" title="County" type="checkbox" value="ON"/>
+<input id="pJScounty" name="pJScounty" type="hidden" value="false"/>
+</td>
+<td>
+																						County
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="interMunicipal" name="interMunicipal" readonly="true" specialfield="true" title="Inter-Municipal" type="checkbox" value="ON"/>
+<input id="pJSinterMunicipal" name="pJSinterMunicipal" type="hidden" value="false"/>
+</td>
+<td>
+																						Inter-Municipal
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="localGovernmentOwned" name="localGovernmentOwned" readonly="true" specialfield="true" title="Local Government Owned" type="checkbox" value="ON"/>
+<input id="pJSlocalGovernmentOwned" name="pJSlocalGovernmentOwned" type="hidden" value="false"/>
+</td>
+<td>
+																						Local Government Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="municipality" name="municipality" readonly="true" specialfield="true" title="Municipality" type="checkbox" value="ON"/>
+<input id="pJSmunicipality" name="pJSmunicipality" type="hidden" value="false"/>
+</td>
+<td>
+																						Municipality
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="schoolDistrict" name="schoolDistrict" readonly="true" specialfield="true" title="School District" type="checkbox" value="ON"/>
+<input id="pJSschoolDistrict" name="pJSschoolDistrict" type="hidden" value="false"/>
+</td>
+<td>
+																						School District
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="township" name="township" readonly="true" specialfield="true" title="Township" type="checkbox" value="ON"/>
+<input id="pJStownship" name="pJStownship" type="hidden" value="false"/>
+</td>
+<td>
+																						Township
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="laborSurplusAreaFirm" name="laborSurplusAreaFirm" readonly="true" specialfield="true" title="Labor Surplus Area Firm" type="checkbox" value="ON"/>
+<input id="pJSlaborSurplusAreaFirm" name="pJSlaborSurplusAreaFirm" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						Labor Surplus Area Firm
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td colspan="2">
+																						Business or Organization
+																					</td>
+</tr>
+<tr>
+<td>
+<input checked="true" disabled="true" id="corpEntityNotTaxExempt" name="corpEntityNotTaxExempt" readonly="true" specialfield="true" title="Corporate Entity, Not Tax Exempt" type="checkbox" value="ON"/>
+<input id="pJScorpEntityNotTaxExempt" name="pJScorpEntityNotTaxExempt" type="hidden" value="true"/>
+</td>
+<td>
+																						Corporate Entity, Not Tax Exempt
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="corpEntityTaxExempt" name="corpEntityTaxExempt" readonly="true" specialfield="true" title="Corporate Entity, Tax Exempt" type="checkbox" value="ON"/>
+<input id="pJScorpEntityTaxExempt" name="pJScorpEntityTaxExempt" type="hidden" value="false"/>
+</td>
+<td>
+																						Corporate Entity, Tax Exempt
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="partnershipOrLlp" name="partnershipOrLlp" readonly="true" specialfield="true" title="Partnership or Limited Liability Partnership" type="checkbox" value="ON"/>
+<input id="pJSpartnershipOrLlp" name="pJSpartnershipOrLlp" type="hidden" value="false"/>
+</td>
+<td>
+																						Partnership or Limited Liability Partnership
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="solePropreitorship" name="solePropreitorship" readonly="true" specialfield="true" title="Sole Proprietorship" type="checkbox" value="ON"/>
+<input id="pJSsolePropreitorship" name="pJSsolePropreitorship" type="hidden" value="false"/>
+</td>
+<td>
+																						Sole Proprietorship
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="smallAgriculturalCooperative" name="smallAgriculturalCooperative" readonly="true" specialfield="true" title="Small Agricultural Cooperative" type="checkbox" value="ON"/>
+<input id="pJSsmallAgriculturalCooperative" name="pJSsmallAgriculturalCooperative" type="hidden" value="false"/>
+</td>
+<td>
+																						Small Agricultural Cooperative
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="internationalOrganization" name="internationalOrganization" readonly="true" specialfield="true" title="International Organization" type="checkbox" value="ON"/>
+<input id="pJSinternationalOrganization" name="pJSinternationalOrganization" type="hidden" value="false"/>
+</td>
+<td>
+																						International Organization
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr width="100%">
+<td class="sshead" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead" scope="row" width="90%">Socio Economic Data</td>
+<td align="Right" class="sshead" scope="row" width="10%">
+<img alt="Socio Economic Data Expand/Collapse" id="scecollapse" onclick="javascript:collapse('scecollapse','socio','sociotr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="sociotr">
+<td scope="row">
+<div id="socio">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td scope="row" valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="alaskanNativeCorpOwnedFirm" name="alaskanNativeCorpOwnedFirm" readonly="true" specialfield="true" title="Alaskan Native Corporation Owned Firm" type="checkbox" value="ON"/>
+<input id="pJSalaskanNativeCorpOwnedFirm" name="pJSalaskanNativeCorpOwnedFirm" type="hidden" value="false"/>
+</td>
+<td>
+																						Alaskan Native Corporation Owned Firm
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="AIOBFlag" name="AIOBFlag" readonly="true" specialfield="true" title="American Indian" type="checkbox" value="ON"/>
+<input id="pJSAIOBFlag" name="pJSAIOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						American Indian Owned
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="indianTribe" name="indianTribe" readonly="true" specialfield="true" title="Indian Tribe (Federally Recognized)" type="checkbox" value="ON"/>
+<input id="pJSindianTribe" name="pJSindianTribe" type="hidden" value="false"/>
+</td>
+<td>
+																						Indian Tribe (Federally Recognized)
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="nativeHawaiianOrgOwnedFirm" name="nativeHawaiianOrgOwnedFirm" readonly="true" specialfield="true" title="Native Hawaiian Organization Owned Firm" type="checkbox" value="ON"/>
+<input id="pJSnativeHawaiianOrgOwnedFirm" name="pJSnativeHawaiianOrgOwnedFirm" type="hidden" value="false"/>
+</td>
+<td>
+																						Native Hawaiian Organization Owned Firm
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="triballyOwnedFirm" name="triballyOwnedFirm" readonly="true" specialfield="true" title="Tribally Owned Firm" type="checkbox" value="ON"/>
+<input id="pJStriballyOwnedFirm" name="pJStriballyOwnedFirm" type="hidden" value="false"/>
+</td>
+<td>
+																						Tribally Owned Firm
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="veteranOwnedFlag" name="veteranOwnedFlag" readonly="true" specialfield="true" title="Veteran Owned" type="checkbox" value="ON"/>
+<input id="pJSveteranOwnedFlag" name="pJSveteranOwnedFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Veteran-Owned Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="SRDVOBFlag" name="SRDVOBFlag" readonly="true" specialfield="true" title="Service-Disabled Veteran-Owned Business" type="checkbox" value="ON"/>
+<input id="pJSSRDVOBFlag" name="pJSSRDVOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Service-Disabled Veteran-Owned Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="jointVentureSDVOBusinessFlag" name="jointVentureSDVOBusinessFlag" readonly="true" specialfield="true" title="Joint Venture Service-Disabled Veteran Owned Business" type="checkbox" value="ON"/>
+<input id="pJSjointVentureSDVOBusinessFlag" name="pJSjointVentureSDVOBusinessFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Service-Disabled Veteran-Owned Business Joint Venture
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="minorityOwnedBusinessFlag" name="minorityOwnedBusinessFlag" readonly="true" specialfield="true" title="Minority Owned Business" type="checkbox" value="ON"/>
+<input id="pJSminorityOwnedBusinessFlag" name="pJSminorityOwnedBusinessFlag" type="hidden" value="false"/>
+</td>
+<td colspan="2">
+																						Minority-Owned Business
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="APAOBFlag" name="APAOBFlag" readonly="true" specialfield="true" title="Asian-Pacific American Owned" type="checkbox" value="ON"/>
+<input id="pJSAPAOBFlag" name="pJSAPAOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Asian-Pacific American Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="BAOBFlag" name="BAOBFlag" readonly="true" specialfield="true" title="Black American Owned" type="checkbox" value="ON"/>
+<input id="pJSBAOBFlag" name="pJSBAOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Black American Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="HAOBFlag" name="HAOBFlag" readonly="true" specialfield="true" title="Hispanic Owned" type="checkbox" value="ON"/>
+<input id="pJSHAOBFlag" name="pJSHAOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Hispanic American Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="NAOBFlag" name="NAOBFlag" readonly="true" specialfield="true" title="Native American" type="checkbox" value="ON"/>
+<input id="pJSNAOBFlag" name="pJSNAOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Native American Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="SAAOBFlag" name="SAAOBFlag" readonly="true" specialfield="true" title="Subcontinent Asian (Asian-Indian) American Owned" type="checkbox" value="ON"/>
+<input id="pJSSAAOBFlag" name="pJSSAAOBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Subcontinent Asian (Asian-Indian) American Owned
+																					</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input disabled="true" id="otherMinorityOwned" name="otherMinorityOwned" readonly="true" specialfield="true" title="Other than one of the preceding" type="checkbox" value="ON"/>
+<input id="pJSotherMinorityOwned" name="pJSotherMinorityOwned" type="hidden" value="false"/>
+</td>
+<td>
+																						Individual or concern, other than one of the preceding
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="womenOwnedFlag" name="womenOwnedFlag" readonly="true" specialfield="true" title="Woman Owned" type="checkbox" value="ON"/>
+<input id="pJSwomenOwnedFlag" name="pJSwomenOwnedFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Women-Owned Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="womenOwnedSmallFlag" name="womenOwnedSmallFlag" readonly="true" specialfield="true" title="Woman Owned Small" type="checkbox" value="ON"/>
+<input id="pJSwomenOwnedSmallFlag" name="pJSwomenOwnedSmallFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Women-Owned Small Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="JVWomenOwnedSmallFlag" name="JVWomenOwnedSmallFlag" readonly="true" specialfield="true" title="Joint venture Women Owned Small" type="checkbox" value="ON"/>
+<input id="pJSJVWomenOwnedSmallFlag" name="pJSJVWomenOwnedSmallFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Women-Owned Small Business (WOSB) Joint Venture eligible under the WOSB Program
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="JVEDWomenOwnedSmallFlag" name="JVEDWomenOwnedSmallFlag" readonly="true" specialfield="true" title="Joint venture Economically Disadvantaged Women-Owned Small Business" type="checkbox" value="ON"/>
+<input id="pJSJVEDWomenOwnedSmallFlag" name="pJSJVEDWomenOwnedSmallFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Economically Disadvantaged Women-Owned Small Business (EDWOSB) Joint Venture
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="verySmallBusinessFlag" name="verySmallBusinessFlag" readonly="true" specialfield="true" title="Emerging Small Business" type="checkbox" value="ON"/>
+<input id="pJSverySmallBusinessFlag" name="pJSverySmallBusinessFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Emerging Small Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="jointVentureSmallBusinessFlag" name="jointVentureSmallBusinessFlag" readonly="true" specialfield="true" title="Joint Venture Small Business" type="checkbox" value="ON"/>
+<input id="pJSjointVentureSmallBusinessFlag" name="pJSjointVentureSmallBusinessFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Small Business Joint Venture
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Line Of Business</td>
+<td align="Right" class="sshead">
+<img alt="Line of Business Expand/Collapse" id="lobcollapse" onclick="javascript:collapse('lobcollapse','lob','lobtr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="lobtr">
+<td>
+<div id="lob">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Line Of Business -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="communityDevelopmentCorp" name="communityDevelopmentCorp" readonly="true" specialfield="true" title="Community Development Corporation" type="checkbox" value="ON"/>
+<input id="pJScommunityDevelopmentCorp" name="pJScommunityDevelopmentCorp" type="hidden" value="false"/>
+</td>
+<td>
+																						Community Development Corporation
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="domesticShelter" name="domesticShelter" readonly="true" specialfield="true" title="Domestic Shelter" type="checkbox" value="ON"/>
+<input id="pJSdomesticShelter" name="pJSdomesticShelter" type="hidden" value="false"/>
+</td>
+<td>
+																						Domestic Shelter
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="educationalInstitutionFlag" name="educationalInstitutionFlag" readonly="true" specialfield="true" title="Educational Institution" type="checkbox" value="ON"/>
+<input id="pJSeducationalInstitutionFlag" name="pJSeducationalInstitutionFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Educational Institution
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="foundation" name="foundation" readonly="true" specialfield="true" title="Foundation" type="checkbox" value="ON"/>
+<input id="pJSfoundation" name="pJSfoundation" type="hidden" value="false"/>
+</td>
+<td>
+																						Foundation
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="hospitalFlag" name="hospitalFlag" readonly="true" specialfield="true" title="Hospital" type="checkbox" value="ON"/>
+<input id="pJShospitalFlag" name="pJShospitalFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Hospital
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="manufacturerOfGoods" name="manufacturerOfGoods" readonly="true" specialfield="true" title="Manufacturer of Goods" type="checkbox" value="ON"/>
+<input id="pJSmanufacturerOfGoods" name="pJSmanufacturerOfGoods" type="hidden" value="false"/>
+</td>
+<td>
+																						Manufacturer of Goods
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="veterinaryHospital" name="veterinaryHospital" readonly="true" specialfield="true" title="Veterinary Hospital" type="checkbox" value="ON"/>
+<input id="pJSveterinaryHospital" name="pJSveterinaryHospital" type="hidden" value="false"/>
+</td>
+<td>
+																						Veterinary Hospital
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="hispanicServicingInstitution" name="hispanicServicingInstitution" readonly="true" specialfield="true" title="Hispanic Servicing Institution" type="checkbox" value="ON"/>
+<input id="pJShispanicServicingInstitution" name="pJShispanicServicingInstitution" type="hidden" value="false"/>
+</td>
+<td>
+																						Hispanic Servicing Institution
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Relationship With Federal Government</td>
+<td align="Right" class="sshead">
+<img alt="Relationship with Federal Government Expand/Collapse" id="rwfgcollapse" onclick="javascript:collapse('rwfgcollapse','relWithFedGov','relWithFedGovtr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="relWithFedGovtr">
+<td>
+<div id="relWithFedGov">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Relationship With Federal Government -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="contracts" name="contracts" readonly="true" specialfield="true" title="Contracts" type="checkbox" value="ON"/>
+<input id="pJScontracts" name="pJScontracts" type="hidden" value="false"/>
+</td>
+<td>
+																						Contracts
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="grants" name="grants" readonly="true" specialfield="true" title="Grants" type="checkbox" value="ON"/>
+<input id="pJSgrants" name="pJSgrants" type="hidden" value="false"/>
+</td>
+<td>
+																						Federal Assistance Awards
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input checked="true" disabled="true" id="contractsGrants" name="contractsGrants" readonly="true" specialfield="true" title="All Awards" type="checkbox" value="ON"/>
+<input id="pJScontractsGrants" name="pJScontractsGrants" type="hidden" value="true"/>
+</td>
+<td>
+																						All Awards
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Other Governmental Entities</td>
+<td align="Right" class="sshead">
+<img alt="Other Governmental Entities Expand/Collapse" id="ogecollapse" onclick="javascript:collapse('ogecollapse','otherGovEnt','otherGovEnttr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="otherGovEnttr">
+<td>
+<div id="otherGovEnt">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Other Governmental Entities -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="airportAuthority" name="airportAuthority" readonly="true" specialfield="true" title="Airport Authority" type="checkbox" value="ON"/>
+<input id="pJSairportAuthority" name="pJSairportAuthority" type="hidden" value="false"/>
+</td>
+<td>
+																						Airport Authority
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="councilOfGovernments" name="councilOfGovernments" readonly="true" specialfield="true" title="Council of Governments" type="checkbox" value="ON"/>
+<input id="pJScouncilOfGovernments" name="pJScouncilOfGovernments" type="hidden" value="false"/>
+</td>
+<td>
+																						Council of Governments
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="housingPublicOrTribal" name="housingPublicOrTribal" readonly="true" specialfield="true" title="Housing Authorities Public/Tribal" type="checkbox" value="ON"/>
+<input id="pJShousingPublicOrTribal" name="pJShousingPublicOrTribal" type="hidden" value="false"/>
+</td>
+<td>
+																						Housing Authorities Public/Tribal
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="interstateEntity" name="interstateEntity" readonly="true" specialfield="true" title="Interstate Entity" type="checkbox" value="ON"/>
+<input id="pJSinterstateEntity" name="pJSinterstateEntity" type="hidden" value="false"/>
+</td>
+<td>
+																						Interstate Entity
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="planningCommission" name="planningCommission" readonly="true" specialfield="true" title="Planning Commission" type="checkbox" value="ON"/>
+<input id="pJSplanningCommission" name="pJSplanningCommission" type="hidden" value="false"/>
+</td>
+<td>
+																						Planning Commission
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="portAuthority" name="portAuthority" readonly="true" specialfield="true" title="Port Authority" type="checkbox" value="ON"/>
+<input id="pJSportAuthority" name="pJSportAuthority" type="hidden" value="false"/>
+</td>
+<td>
+																						Port Authority
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="transitAuthority" name="transitAuthority" readonly="true" specialfield="true" title="Transit Authority" type="checkbox" value="ON"/>
+<input id="pJStransitAuthority" name="pJStransitAuthority" type="hidden" value="false"/>
+</td>
+<td>
+																						Transit Authority
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Organization Factors</td>
+<td align="Right" class="sshead">
+<img alt="Organization Factors Expand/Collapse" id="ofcollapse" onclick="javascript:collapse('ofcollapse','orgFactors','orgFactorstr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="orgFactorstr">
+<td>
+<div id="orgFactors">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Organization Factors -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="subchapterSCorporation" name="subchapterSCorporation" readonly="true" specialfield="true" title="Subchapter S Corporation" type="checkbox" value="ON"/>
+<input id="pJSsubchapterSCorporation" name="pJSsubchapterSCorporation" type="hidden" value="false"/>
+</td>
+<td>
+																						Subchapter S Corporation
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="limitedLiabilityCorporation" name="limitedLiabilityCorporation" readonly="true" specialfield="true" title="Limited Liability Corporation" type="checkbox" value="ON"/>
+<input id="pJSlimitedLiabilityCorporation" name="pJSlimitedLiabilityCorporation" type="hidden" value="false"/>
+</td>
+<td>
+																						Limited Liability Corporation
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="foreignOwnedAndLocated" name="foreignOwnedAndLocated" readonly="true" specialfield="true" title="Foreign Owned" type="checkbox" value="ON"/>
+<input id="pJSforeignOwnedAndLocated" name="pJSforeignOwnedAndLocated" type="hidden" value="false"/>
+</td>
+<td>
+																						Foreign Owned
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="shelteredWorkshopFlag" name="shelteredWorkshopFlag" readonly="true" specialfield="true" title="The AbilityOne Program" type="checkbox" value="ON"/>
+<input id="pJSshelteredWorkshopFlag" name="pJSshelteredWorkshopFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						The AbilityOne Program
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td colspan="2">
+																						Profit Structure
+																					</td>
+</tr>
+<tr>
+<td>
+<input checked="true" disabled="true" id="forProfitOrganization" name="forProfitOrganization" readonly="true" specialfield="true" title="For Profit Organization" type="checkbox" value="ON"/>
+<input id="pJSforProfitOrganization" name="pJSforProfitOrganization" type="hidden" value="true"/>
+</td>
+<td>
+																						For Profit Organization
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="nonprofitOrganizationFlag" name="nonprofitOrganizationFlag" readonly="true" specialfield="true" title="Non Profit Organization" type="checkbox" value="ON"/>
+<input id="pJSnonprofitOrganizationFlag" name="pJSnonprofitOrganizationFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Non Profit Organization
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="otherNotForProfitOrg" name="otherNotForProfitOrg" readonly="true" specialfield="true" title="Other Not For Profit Organization" type="checkbox" value="ON"/>
+<input id="pJSotherNotForProfitOrg" name="pJSotherNotForProfitOrg" type="hidden" value="false"/>
+</td>
+<td>
+																						Other Not For Profit Organization
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="sshead">Educational Entities</td>
+<td align="Right" class="sshead">
+<img alt="Educational Entities Expand/Collapse" id="eecollapse" onclick="javascript:collapse('eecollapse','eduEnt','eduEnttr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="eduEnttr">
+<td>
+<div id="eduEnt">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!-- Educational Entities -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="landGrantCollege1862" name="landGrantCollege1862" readonly="true" specialfield="true" title="1862 Land Grant College" type="checkbox" value="ON"/>
+<input id="pJSlandGrantCollege1862" name="pJSlandGrantCollege1862" type="hidden" value="false"/>
+</td>
+<td>
+																						1862 Land Grant College
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="landGrantCollege1890" name="landGrantCollege1890" readonly="true" specialfield="true" title="1890 Land Grant College" type="checkbox" value="ON"/>
+<input id="pJSlandGrantCollege1890" name="pJSlandGrantCollege1890" type="hidden" value="false"/>
+</td>
+<td>
+																						1890 Land Grant College
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="landGrantCollege1994" name="landGrantCollege1994" readonly="true" specialfield="true" title="1994 Land Grant College" type="checkbox" value="ON"/>
+<input id="pJSlandGrantCollege1994" name="pJSlandGrantCollege1994" type="hidden" value="false"/>
+</td>
+<td>
+																						1994 Land Grant College
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="HBCUFlag" name="HBCUFlag" readonly="true" specialfield="true" title="Historically Black College or University (HBCU)" type="checkbox" value="ON"/>
+<input id="pJSHBCUFlag" name="pJSHBCUFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Historically Black College or University (HBCU)
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="minorityInstitutionFlag" name="minorityInstitutionFlag" readonly="true" specialfield="true" title="Minority Institutions" type="checkbox" value="ON"/>
+<input id="pJSminorityInstitutionFlag" name="pJSminorityInstitutionFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						Minority Institutions
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="privateUniversityOrCollege" name="privateUniversityOrCollege" readonly="true" specialfield="true" title="Private University or College" type="checkbox" value="ON"/>
+<input id="pJSprivateUniversityOrCollege" name="pJSprivateUniversityOrCollege" type="hidden" value="false"/>
+</td>
+<td>
+																						Private University or College
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="schoolOfForestry" name="schoolOfForestry" readonly="true" specialfield="true" title="School of Forestry" type="checkbox" value="ON"/>
+<input id="pJSschoolOfForestry" name="pJSschoolOfForestry" type="hidden" value="false"/>
+</td>
+<td>
+																						School of Forestry
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="higherLearning" name="higherLearning" readonly="true" specialfield="true" title="State Controlled Institution of Higher Learning" type="checkbox" value="ON"/>
+<input id="pJShigherLearning" name="pJShigherLearning" type="hidden" value="false"/>
+</td>
+<td>
+																						State Controlled Institution of Higher Learning
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" rowspan="13" scope="row"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="tribalCollege" name="tribalCollege" readonly="true" specialfield="true" title="Tribal College" type="checkbox" value="ON"/>
+<input id="pJStribalCollege" name="pJStribalCollege" type="hidden" value="false"/>
+</td>
+<td>
+																						Tribal College
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="veterinaryCollege" name="veterinaryCollege" readonly="true" specialfield="true" title="Veterinary College" type="checkbox" value="ON"/>
+<input id="pJSveterinaryCollege" name="pJSveterinaryCollege" type="hidden" value="false"/>
+</td>
+<td>
+																						Veterinary College
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class="sshead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr width="100%">
+<td align="left" class="sshead">Certifications</td>
+<td align="Right" class="sshead">
+<img alt="Certifications Expand/Collapse" id="cecollapse" onclick="javascript:collapse('cecollapse','cert','certtr');" onmouseout="changeCollapseImage(this,'Stat');" onmouseover="changeCollapseImage(this,'Over');" src="/common/images/minimize_ltblu_Stat.gif" style="cursor:hand"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr id="certtr">
+<td>
+<div id="cert">
+<table border="0" cellpadding="1" cellspacing="0" width="100%">
+<tbody>
+<!--  Certifications -->
+<tr>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="firm8AFlag" name="firm8AFlag" readonly="true" specialfield="true" title="SBA Certified 8(a) Program Participant" type="checkbox" value="ON"/>
+<input id="pJSfirm8AFlag" name="pJSfirm8AFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						SBA Certified 8(a) Program Participant
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="firm8AJointVenture" name="firm8AJointVenture" readonly="true" specialfield="true" title="SBA Certified 8(a) Joint Venture" type="checkbox" value="ON"/>
+<input id="pJSfirm8AJointVenture" name="pJSfirm8AJointVenture" type="hidden" value="false"/>
+</td>
+<td>
+																						SBA Certified 8(a) Joint Venture
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="selfCertifiedHubZoneJV" name="selfCertifiedHubZoneJV" readonly="true" specialfield="true" title="Self Certified HUBZone Joint Venture" type="checkbox" value="ON"/>
+<input id="pJSselfCertifiedHubZoneJV" name="pJSselfCertifiedHubZoneJV" type="hidden" value="false"/>
+</td>
+<td>
+																						Self Certified HUBZone Joint Venture
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" scope="row" width="0%"></td>
+<td valign="top" width="33%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="SDBFlag" name="SDBFlag" readonly="true" specialfield="true" title="SBA Certified Small Disadvantaged Business" type="checkbox" value="ON"/>
+<input id="pJSSDBFlag" name="pJSSDBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						SBA Certified Small Disadvantaged Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="HubZoneFlag" name="HubZoneFlag" readonly="true" specialfield="true" title="SBA Certified HUB Zone Firm" type="checkbox" value="ON"/>
+<input id="pJSHubZoneFlag" name="pJSHubZoneFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						SBA Certified HUBZone Firm
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="SCEDWOSBFlag" name="SCEDWOSBFlag" readonly="true" specialfield="true" title="SBA Certified Economically Disadvantaged Women Owned Small Business" type="checkbox" value="ON"/>
+<input id="pJSSCEDWOSBFlag" name="pJSSCEDWOSBFlag" type="hidden" value="false"/>
+</td>
+<td>
+																						SBA-Certified Economically Disadvantaged Women-Owned Small Business
+																					</td>
+</tr>
+</table>
+</td>
+<td class="subsectionseparator" scope="row" width="0%"></td>
+<td valign="top" width="34%">
+<table>
+<tr>
+<td>
+<input disabled="true" id="selfCertifiedDisadvBus" name="selfCertifiedDisadvBus" readonly="true" specialfield="true" title="Self-Certified Small Disadvantaged Business" type="checkbox" value="ON"/>
+<input id="pJSselfCertifiedDisadvBus" name="pJSselfCertifiedDisadvBus" type="hidden" value="false"/>
+</td>
+<td>
+																						Self-Certified Small Disadvantaged Business
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="dotCertifiedDisadvBus" name="dotCertifiedDisadvBus" readonly="true" specialfield="true" title="DoT Certified Disadvantaged Business Enterprise" type="checkbox" value="ON"/>
+<input id="pJSdotCertifiedDisadvBus" name="pJSdotCertifiedDisadvBus" type="hidden" value="false"/>
+</td>
+<td>
+																						DoT Certified Disadvantaged Business Enterprise
+																					</td>
+</tr>
+<tr>
+<td>
+<input disabled="true" id="SCWOSBFlag" name="SCWOSBFlag" readonly="true" specialfield="true" title="SBA Certified Women Owned Small Business" type="checkbox" value="ON"/>
+<input id="pJSCWOSBFlag" name="pJSCWOSBFlag" type="hidden" value="false"/>
+</td>
+<td>
+
+																						SBA-Certified Women-Owned Small Business
+																					</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="shead" colspan="4" scope="row">Contract Data</td>
+</tr>
+<tr>
+<td colspan="4" scope="row">
+<table border="0" cellpadding="0" cellspacing="0" height="250" width="100%">
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblTypeOfContractPricing">Type of Contract:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="typeOfContractPricing" name="typeOfContractPricing" style="font:11px Arial" title="Type Of Contract Pricing">
+<option value="">Select One</option>
+<option value="2">Combination (Applies to Awards where two or more of the above apply)</option><option value="S">Cost No Fee</option><option value="R">Cost Plus Award Fee</option><option selected="true" value="U">Cost Plus Fixed Fee</option><option value="V">Cost Plus Incentive Fee</option><option value="T">Cost Sharing</option><option value="J">Firm Fixed Price</option><option value="M">Fixed Price Award Fee</option><option value="L">Fixed Price Incentive</option><option value="B">Fixed Price Level of Effort</option><option value="A">Fixed Price Redetermination</option><option value="K">Fixed Price with Economic Price Adjustment</option><option value="Z">Labor Hours</option><option value="3">Other (Applies to Awards where none of the above apply)</option><option value="Y">Time and Materials</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblInherentlyGovernmentalFunction">Nature of Services:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="inherentlyGovernmentalFunction" name="inherentlyGovernmentalFunction" style="font:11px Arial" title="Inherently Governmental Functions">
+<option value="">Select One</option>
+<option value="CL">Closely Associated</option><option value="CT">Critical Functions</option><option selected="true" value="OT">Other Functions</option><option value="CL,CT">Closely Associated,Critical Functions</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblMultiYearContract">Multiyear Contract:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="multiYearContract" name="multiYearContract" size="1" style="font:11px Arial" title="Multi Year Contract Flag">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblMajorProgramCode">Major Program:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="majorProgramCode" maxlength="100" name="majorProgramCode" readonly="true" size="20" title="Major Program Code" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblNationalInterest">National Interest Action:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="nationalInterest" name="nationalInterest" style="font:11px Arial" title="National Interest Action">
+<option value="">Select One</option>
+<option value="T10S">American Samoa Earthquake, Tsunami and Flooding</option><option value="W081">California Wildfires 2008</option><option value="P20C">COVID-19 2020</option><option value="O10G">Gulf Oil Spill 0410</option><option value="Q10H">Haiti Earthquake 2010</option><option value="H06C">Hurricane Chris 2006</option><option value="H19D">Hurricane Dorian 2019</option><option value="H10E">Hurricane Earl 2010</option><option value="H06E">Hurricane Ernesto 2006</option><option value="H18F">Hurricane Florence 2018</option><option value="H08G">Hurricane Gustav 2008</option><option value="H08H">Hurricane Hanna 2008</option><option value="H17H">Hurricane Harvey 2017</option><option value="H21I">Hurricane Ida 2021</option><option value="H08I">Hurricane Ike 2008</option><option value="H11I">Hurricane Irene 2011</option><option value="H17I">Hurricane Irma 2017</option><option value="H12I">Hurricane Isaac 2012</option><option value="H05K">Hurricane Katrina 2005</option><option value="H20L">Hurricane Laura 2020</option><option value="H17M">Hurricane Maria 2017</option><option value="H19M">Hurricane Michael 2019</option><option value="H05O">Hurricane Ophelia 2005</option><option value="H05R">Hurricane Rita 2005</option><option value="H13S">Hurricane Sandy 2013</option><option value="H05W">Hurricane Wilma 2005</option><option value="I09P">Inauguration 2009</option><option value="F081">Midwest Storms and Flooding 2008</option><option selected="true" value="NONE">None</option><option value="T13O">Oklahoma Tornado and Storm 2013</option><option value="O21R">Operation Allies Refuge / Welcome</option><option value="O23R">Operation Atlantic Resolve</option><option value="O12F">Operation Enduring Freedom (OEF)</option><option value="O15F">Operation Freedom's Sentinel (OFS)</option><option value="O14S">Operations in Iraq and Syria</option><option value="O14E">Operation United Assistance (OUA) - Ebola Outbreak West Africa</option><option value="Q11J">Pacific Earthquake/Tsunami 2011</option><option value="O22U">Ukraine Mission Support</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCostOrPricingData">Cost Or Pricing Data:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="costOrPricingData" name="costOrPricingData" size="1" style="font:11px Arial" title="Cost Or Pricing Data">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="W">Not Obtained - Waived</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblAcceptPurchaseCard">Purchase Card Used As Payment Method:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="acceptPurchaseCard" name="acceptPurchaseCard" size="1" style="font:11px Arial" title="Purchase Card Accepted As Payment Method Flag">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblUndefinitizedAction">Undefinitized Action:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="undefinitizedAction" name="undefinitizedAction" size="1" style="font:11px Arial" title="Undefinitized Action Flag">
+<option value="">Select One</option>
+<option value="A">Letter Contract</option><option selected="true" value="X">No</option><option value="B">Other Undefinitized Action</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblPerformanceBasedServiceContract">Performance Based Service Acquisition:</span>
+<br/>
+<i>* FY 2004 and prior; 80% or more specified as performance requirement</i>
+<br/>
+<i>* FY 2005 and later; 50% or more specified as performance requirement</i>
+</td>
+<td scope="row" valign="top">
+<select class="disabledField" disabled="true" id="performanceBasedServiceContract" name="performanceBasedServiceContract" size="1" style="font:11px Arial" title="Performance Based Service Acquisition">
+<option value="">Select One</option>
+<option selected="true" value="N">No - Service where PBA is not used.</option><option value="X">Not Applicable</option><option value="Y">Yes - Service where PBA is used.</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblContingencyHumanitarianPeacekeepingOperation">Emergency Acquisition:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="contingencyHumanitarianPeacekeepingOperation" name="contingencyHumanitarianPeacekeepingOperation" size="1" style="font:11px Arial" title="Emergency Acquisition">
+<option value="">Select One</option>
+<option value="A">Contingency operation as defined in 10 U.S.C. 101(a)(13)</option><option value="D">Humanitarian and Civic Assistance as defined in 10 U.S.C. 401(e)</option><option value="B">Humanitarian or peacekeeping operation as defined in 10 U.S.C. 2302(8)</option><option selected="true" value="X">Not Applicable</option><option value="C">Presidential issued emergency declaration, or a major disaster declaration</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblContractFinancing">Contract Financing:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="contractFinancing" name="contractFinancing" size="1" style="font:11px Arial;width=250" title="Contract Financing">
+<option value="">Select One</option>
+<option value="E">Commercial Financing</option><option value="A">FAR 52.232-16 Progress Payments</option><option selected="true" value="Z">Not Applicable</option><option value="C">Percentage of Completion Progress Payments</option><option value="F">Performance-Based Financing</option><option value="D">Unusual Progress Payments or Advance Payments</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCostAccountingStandardsClause">Cost Accounting Standards Clause:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="costAccountingStandardsClause" name="costAccountingStandardsClause" size="1" style="font:11px Arial" title="Cost Accounting Standards Clause Flag">
+<option selected="true" value="">Select One</option>
+<option value="N">No - CAS waiver approved</option><option value="X">Not Applicable exempt from CAS</option><option value="Y">Yes - CAS clause included</option></select>
+</td>
+</tr>
+<tr id="build3ConsolidatedContract">
+<td scope="row">
+<span id="lblConsolidatedContract">Consolidated Contract:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="consolidatedContract" name="consolidatedContract" size="1" style="font:11px Arial" title="Consolidated Contract Flag">
+<option value="">Select One</option>
+<option value="A">Consolidated Requirements</option><option value="C">Consolidated Requirements Under FAR 7.107-1(b) Exception</option><option selected="true" value="B">Consolidated Requirements with Written Determination</option><option value="N">No</option><option value="D">Not Consolidated</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr id="numOfActions">
+<td scope="row">
+<span id="lblNumberOfActions">Number Of Actions:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="numberOfActions" maxlength="9" name="numberOfActions" readonly="true" title="Number Of Actions" type="text" value="1"/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="shead">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row" width="44%">Legislative Mandates</td>
+<td scope="row" width="56%">
+<a name="principalPlaceOfPerformance">Principal Place of Performance</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td scope="row">
+<span id="lblClingerCohenAct">Clinger-Cohen Act:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="ClingerCohenAct" name="ClingerCohenAct" size="1" style="font:11px Arial" title="Clinger Cohen Act Flag">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblLaborStandards">Labor Standards:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="laborStandards" name="laborStandards" size="1" style="font:11px Arial" title="Labor Standards Flag">
+<option value="">Select One</option>
+<option value="N">No</option><option value="X">Not Applicable</option><option selected="true" value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblMaterialsSuppliesArticlesEquipment">Materials, Supplies, Articles, and Equip:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="materialsSuppliesArticlesEquipment" name="materialsSuppliesArticlesEquipment" size="1" style="font:11px Arial" title="Materials Supplies Articles Equipment Flag">
+<option value="">Select One</option>
+<option value="N">No</option><option selected="true" value="X">Not Applicable</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblConstructionWageRateRequirements">Construction Wage Rate Requirements:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="constructionWageRateRequirements" name="constructionWageRateRequirements" size="1" style="font:11px Arial" title="Construction Wage Rate Requirements Flag">
+<option value="">Select One</option>
+<option value="N">No</option><option selected="true" value="X">Not Applicable</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td nowrap="true" scope="row">
+<span id="lblListOfAdditionalReportingValues">Additional Reporting:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="listOfAdditionalReportingValues" multiple="true" name="listOfAdditionalReportingValues" size="auto" style="font:11px Arial" title="List Of Additional Reporting Values">
+<option disabled="true" value=" ">Select One or More Options</option>
+<option value="E">Employment Eligibility Verification (52.222-54)</option><option value="S">Service Contract Inventory (FAR 4.17)</option><option selected="true" value="NONE">None of the Above</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblInteragencyContractingAuthority">Interagency Contracting Authority:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="interagencyContractingAuthority" name="interagencyContractingAuthority" size="1" style="font:11px Arial" title="Contracting Authority">
+<option value="">Select One</option>
+<option value="A">Economy Act</option><option selected="true" value="X">Not Applicable</option><option value="B">Other Statutory Authority</option></select>
+</td>
+</tr>
+<tr>
+<td colspan="2" scope="row" valign="top">
+<span id="lblOtherStatutoryAuthority">Other Interagency Contracting Statutory Authority:
+																	<br/>
+<i>(100 characters)</i>
+</span>
+</td>
+</tr>
+<tr>
+<td colspan="2" scope="row">
+<textarea class="disabledField" cols="42" disabled="true" id="otherStatutoryAuthority" maxlength="100" name="otherStatutoryAuthority" rows="3" size="20" style="height:50" title="Other Interagency Contracting Statutory Authority" type="text"></textarea>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5">
+</td>
+</tr>
+</table>
+</td>
+<td class="sectionseparator" scope="row" style="width:3px"></td>
+<td scope="row" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%">
+<tr>
+<td scope="row">
+<span id="lblPrincipalPlaceOfPerformanceName">Principal Place Of Performance Code:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="1" cellspacing="0">
+<tr>
+<td scope="row">
+<i>State</i>
+</td>
+<td scope="row">
+<i>Location</i>
+</td>
+<td scope="row">
+<i>Country</i>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="countryOfPerformance" id="placeStateCode" labelid="lblPrincipalPlaceOfPerformanceName" maxlength="3" name="placeStateCode" readonly="true" size="2" style="text-transform:uppercase;" title="Principal Place Of Performance State Code" type="text" value="VA"/>
+</td>
+<td scope="row">
+<input class="disabledField" id="placeLocationCode" labelid="lblPrincipalPlaceOfPerformanceName" maxlength="5" name="placeLocationCode" readonly="true" size="5" style="text-transform:uppercase;" title="Principal Place Of Performance Location Code" type="text" value=""/>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="placeOfPerformanceddd" id="placeCountryCode" labelid="lblPrincipalPlaceOfPerformanceName" maxlength="3" name="placeCountryCode" readonly="true" size="3" style="text-transform:uppercase;" title="Principal Place Of Performance Country Code" type="text" value="USA"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="placeOfPerformanceddd" name="placeOfPerformanceddd" src="/common/images/dot20_stat.gif" title="Principal place of Performance Name Lookup" type="image"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span>Principal Place Of Performance County Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="principalPlaceOfPerformanceCountyName" maxlength="100" name="principalPlaceOfPerformanceCountyName" readonly="true" size="31" specialfield="true" style="text-transform:uppercase;" title="Principal Place Of Performance County Name " type="text" value="FAIRFAX"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span>Principal Place Of Performance City Name:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="principalPlaceOfPerformanceName" maxlength="100" name="principalPlaceOfPerformanceName" readonly="true" size="31" specialfield="true" style="text-transform:uppercase;" title="Principal Place Of Performance City Name " type="text" value="ALEXANDRIA"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCongressionalDistrictPlaceOfPerformance">Congressional District Place Of Performance:</span>
+</td>
+<td scope="row">
+<!-- NCS-56838 <input title="Congressional District Place Of Performance" class="disabledField" type="text" readOnly="true" specialField="true" name="congressionalDistrictPlaceOfPerformance" id="congressionalDistrictPlaceOfPerformance" size="31"/> -->
+<input class="disabledField" id="placeOfPerformanceCongressionalDistrict" name="congressionalDistrictPlaceOfPerformance" readonly="true" size="31" specialfield="true" title="Congressional District Place Of Performance" type="text" value="VIRGINIA 08"/>
+</td>
+</tr>
+<tr id="build3PlaceOfPerformanceZipCode">
+<td scope="row">
+<span id="lblPlaceOfPerformanceZipCode">Place Of Performance Zip Code(+4):</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input associatedfieldid="placeOfPerformanceZIPCode4" class="disabledField" id="placeOfPerformanceZIPCode" labelid="lblPlaceOfPerformanceZipCode" maxlength="10" name="placeOfPerformanceZIPCode" readonly="true" size="5" style="text-transform:uppercase;" title="Place Of Performance Zip Code(5) " type="text" value="22310"/>
+</td>
+<td scope="row"> - </td>
+<td scope="row">
+<input class="disabledField" id="placeOfPerformanceZIPCode4" labelid="lblPlaceOfPerformanceZipCode" maxlength="4" name="placeOfPerformanceZIPCode4" readonly="true" size="5" style="text-transform:uppercase;" title="Place Of Performance Zip Code(4) " type="text" value="3273"/>
+</td>
+<td nowrap="true" scope="row">
+<input class="dddButton" disabled="true" id="zipcodeddd" name="zipcodeddd" src="/common/images/dot20_stat.gif" title="Zip Code Lookup" type="image"/>
+</td>
+<td nowrap="true" scope="row">
+																		  <a href="http://zip4.usps.com/zip4/welcome.jsp" target="_blank" title="USPS ZIP Codes">USPS ZIP Codes</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="shead" scope="row" width="100%">
+<a name="productOrServiceInfo">Product Or Service Information</a>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="2" cellspacing="0" height="350" id="productOrSericeInformationdatatable" width="100%">
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td scope="row" width="160">
+<span id="lblProductOrServiceCode">Product/Service Code:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="productOrServiceCodeddd" id="productOrServiceCode" maxlength="4" name="productOrServiceCode" readonly="true" size="10" title="Product Or Service Code" type="text" value="AD92"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="productOrServiceCodeddd" name="productOrServiceCodeddd" src="/common/images/dot20_stat.gif" title="Product or Service Code Lookup" type="image"/>
+</td>
+<td scope="row" width="5"></td>
+<td scope="row">
+<span id="lblProductOrServiceCodeDescription" width="20">Description:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="productOrServiceCodeDescription" maxlength="100" name="productOrServiceCodeDescription" readonly="true" size="50" specialfield="true" title="Product Or Service Code Description" type="text" value="R&amp;D- DEFENSE OTHER: OTHER (APPLIED RESEARCH/EXPLORATORY DEVELOPMENT)"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblPrincipalNAICSCode">Principal NAICS Code:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="naicsddd" id="principalNAICSCode" maxlength="6" name="principalNAICSCode" readonly="true" size="10" title="Principal North American Industry Classification System Code" type="text" value="541712"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="naicsddd" name="naicsddd" src="/common/images/dot20_stat.gif" title="Principal NAICS Code Lookup" type="image"/>
+</td>
+<td scope="row" width="5"></td>
+<td scope="row">
+<span id="lblNAICSCodeDescription" width="20">Description:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="NAICSCodeDescription" maxlength="50" name="NAICSCodeDescription" readonly="true" size="50" specialfield="true" title="North American Industry Classification System Description" type="text" value="RESEARCH AND DEVELOPMENT IN THE PHYSICAL, ENGINEERING, AND LIFE SCIENCES (EXCEPT BIOTECHNOLOGY)"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblBundledContractException">Bundled Contract:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="bundledContractException" name="bundledContractException" size="1" style="font:11px Arial" title="Bundled Contract">
+<option value="">Select One</option>
+<option value="A">Mission Critical</option><option value="B">OMB Circular A-76</option><option value="C">Other</option><option value="D">Not a bundled requirement</option><option value="E">Bundled Requirements</option><option value="F">Substantially Bundled Requirements</option><option value="G">Bundled Requirements Under a FAR 7.107-1(b) Exception</option><option selected="true" value="H">Not Bundled</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblSystemEquipmentCode">DOD Acquisition Program:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="systemEquipmentCodeddd" id="systemEquipmentCode" maxlength="6" name="systemEquipmentCode" readonly="true" size="10" style="text-transform:uppercase" title="DOD Acquisition Program" type="text" value="000"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="systemEquipmentCodeddd" name="systemEquipmentCodeddd" src="/common/images/dot20_stat.gif" title="DOD Acquisition Program Lookup" type="image"/>
+</td>
+<td scope="row" width="5"></td>
+<td scope="row">
+<span id="lblSystemEquipmentShortDescription" width="20">Description:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="systemEquipmentShortDescription" maxlength="50" name="systemEquipmentShortDescription" readonly="true" size="50" specialfield="true" title="Program,System or Equipment Code Description" type="text" value="NONE"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCountryOfOrigin">Country of Product or Service Origin:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="countryddd" id="countryOfOrigin" maxlength="3" name="countryOfOrigin" readonly="true" size="3" style="text-transform:uppercase;" title="Country of Product or Service Origin" type="text" value="USA"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="countryddd" name="countryddd" src="/common/images/dot20_stat.gif" title="Country of Product or Service Origin Lookup" type="image"/>
+</td>
+<td scope="row" width="5"></td>
+<td scope="row">
+<input class="disabledField" id="countryOfOriginForDisplay" name="countryOfOriginForDisplay" readonly="true" size="30" specialfield="true" title="Country of Product or Service Origin For Display" type="text" value="UNITED STATES"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblPlaceOfManufacture">Place of Manufacture:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="placeOfManufacture" name="placeOfManufacture" size="1" style="font:11px Arial;" title="Place Of Manufacture">
+<option value="">Select One</option>
+<option value="D">Mfg in U.S.</option><option value="H">Mfg outside U.S. - Commercial information technology</option><option value="J">Mfg outside U.S. - Domestic nonavailability</option><option value="I">Mfg outside U.S. - Public interest determination</option><option value="L">Mfg outside U.S. - Qualifying country (DoD only)</option><option value="F">Mfg outside U.S. - Resale</option><option value="G">Mfg outside U.S. - Trade Agreements</option><option value="K">Mfg outside U.S. - Unreasonable cost</option><option value="E">Mfg outside U.S. - Use outside the United States</option><option selected="true" value="C">Not a manufactured end product</option><option value="A">Performed or Manufactured in US, but services performed by a foreign concern or more than 50% foreign content</option><option value="B">Performed or Manufactured outside US</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblManufacturingOrganizationType">Domestic or Foreign Entity:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="manufacturingOrganizationType" name="manufacturingOrganizationType" size="1" style="font:11px Arial" title="Manufacturing Organization Type">
+<option value="">Select One</option>
+<option selected="true" value="A">U.S. Owned Business</option><option value="B">Other U.S. Entity (e.g. Government)</option><option value="C">Foreign-Owned Business Incorporated in the U.S.</option><option value="D">Foreign-Owned Business Not Incorporated in the U.S.</option><option value="O">Other Foreign Entity (e.g. Foreign Government)</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblRecoveredMaterialClauses">Recovered Materials/Sustainability:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<select class="disabledField" disabled="true" id="recoveredMaterialClauses" name="recoveredMaterialClauses" size="1" style="width:375px;font:11px Arial" title="Recovered Materials/Sustainability">
+<option value="">Select One</option>
+<option value="E">Bio-based</option><option value="D">Energy efficient</option><option value="F">Environmentally preferable</option><option value="M">FAR 52.204-4 &amp; FAR 52.223-1 &amp; FAR 52.223-2 &amp; FAR 52.223-15 &amp; FAR 52.223-16 Included</option><option value="B">FAR 52.223-4 and FAR 52.223-9 Included</option><option value="H">FAR 52.223-4 &amp; bio-based</option><option value="J">FAR 52.223-4 &amp; bio-based &amp; energy efficient</option><option value="L">FAR 52.223-4 &amp; bio-based &amp; energy efficient &amp; environmentally preferable</option><option value="K">FAR 52.223-4 &amp; bio-based &amp; environmentally preferable</option><option value="G">FAR 52.223-4 &amp; energy efficient</option><option value="I">FAR 52.223-4 &amp; environmentally preferable</option><option value="A">FAR 52.223-4 Included</option><option selected="true" value="C">No Clauses Included and No Sustainability Included</option></select>
+</td>
+<td scope="row" style="width:2;">
+<input alt="Spacer" id="1by1" name="1by1" specialfield="true" src="/common/images/1by1.gif" style="height:1;" tabindex="-1" type="image" value="" width="0"/>
+</td>
+<!-- <td scope="row">
+																	<a href="https://obamawhitehouse.archives.gov/omb/procurement_index_green" title="OMB Policy on Sustainable Acquisition" target="_blank">OMB Policy on Sustainable Acquisition</a>
+																</td> -->
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblInformationTechnologyCommercialItemCategory">Information Technology Commercial Category:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="informationTechnologyCommercialItemCategory" name="informationTechnologyCommercialItemCategory" size="1" style="font:11px Arial" title="Information Technology Commercial Category">
+<option value="">Select One</option>
+<option value="A">Commercially Available Off-the-Shelf (COTS) Item</option><option value="B">Commercial Product</option><option value="E">Commercial Service</option><option value="D">Noncommercial Product</option><option value="F">Noncommercial Service</option><option value="C">Non-developmental Item</option><option selected="true" value="Z">Not IT Products or Services</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblClaimantProgramCode">Claimant Program Code:</span>
+</td>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" dddbtnid="claimantProgramCodeddd" id="claimantProgramCode" maxlength="6" name="claimantProgramCode" readonly="true" size="10" style="text-transform:uppercase" title="Claimant Program Code" type="text" value="S1"/>
+</td>
+<td scope="row">
+<input class="dddButton" disabled="true" id="claimantProgramCodeddd" name="claimantProgramCodeddd" src="/common/images/dot20_stat.gif" title="Claimant Program Code Lookup" type="image"/>
+</td>
+<td scope="row" width="5"></td>
+<td scope="row">
+<span id="lblClaimantProgramCodeShortDescription" width="20">Description:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="claimantProgramCodeShortDescription" maxlength="50" name="claimantProgramCodeShortDescription" readonly="true" size="50" specialfield="true" title="Claimant Program Code Description" type="text" value="SERVICES"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblSeaTransportation">Sea Transportation:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="seaTransportation" name="seaTransportation" size="1" style="font:11px Arial" title="Sea Transportation">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="U">Unknown</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblGFE_GFP">GFP Provided Under This Action:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="GFE_GFP" name="GFE_GFP" size="1" style="font:11px Arial" title="Government Furnished Equipment - Government Furnished Property Flag">
+<option value="">Select One</option>
+<option selected="true" value="N">Transaction does not use GFP</option><option value="Y">Transaction uses GFP</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblUseOfEPADesignatedProducts">Use Of EPA Designated Products:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="useOfEPADesignatedProducts" name="useOfEPADesignatedProducts" size="1" style="font:11px Arial" title="Use Of EPA Designated Products">
+<option value="">Select One</option>
+<option value="D">Justification - Performance</option><option value="C">Justification - Price</option><option value="B">Justification - Time</option><option value="A">Meets Requirements</option><option selected="true" value="E">Not Required</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" valign="top">
+<span id="lblDescriptionOfContractRequirement">Description Of Requirement:</span>
+<br/>
+<i>(Limit 250 characters)</i>
+<br/>
+														Current:
+														<span id="dorCharCount">0</span>
+</td>
+<td scope="row">
+<textarea class="disabledField" cols="65" disabled="true" id="descriptionOfContractRequirement" maxlength="4000" name="descriptionOfContractRequirement" oninput="countChars('descriptionOfContractRequirement','dorCharCount')" rows="5" style="height:50;background-color:white" title="Description Of Contract Requirement (250 characters)">Period of Performance extension TI 003</textarea>
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" class="shead" scope="row" width="100%">
+<a name="competitionInfo">Competition Information</a>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" id="CompetitionInfodatatable" width="100%">
+<tr>
+<td scope="row">
+<table border="0" cellpadding="2" cellspacing="3" height="100" width="100%">
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblExtentCompetedForReferencedIDV">Extent Competed For Referenced IDV:</span>
+</td>
+<td colspan="3" scope="row" style="width:60%">
+<input class="disabledField" id="extentCompetedForReferencedIDV" name="extentCompetedForReferencedIDV" readonly="true" size="50" specialfield="true" title="Extent Competed For Referenced IDV" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblExtentCompeted">Extent Competed:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="extentCompeted" maxlength="1" name="extentCompeted" size="1" style="font:11px Arial" title="Extent Competed"><option value="">Select One</option><option value="F">Competed under SAP</option><option value="E">Follow On to Competed Action</option><option selected="true" value="A">Full and Open Competition</option><option value="D">Full and Open Competition after exclusion of sources</option><option value="B">Not Available for Competition</option><option value="C">Not Competed</option><option value="G">Not Competed under SAP</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblTradeoffProcess">Source Selection Process:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="tradeoffProcess" maxlength="1" name="tradeoffProcess" size="1" style="font:11px Arial" title="Source Selection Process" value="">
+<option selected="true" value="">Select One</option>
+<option value="LPTA">Lowest Price Technically Acceptable</option><option value="O">Other</option><option value="TO">Trade-off</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblSolicitationProcedures">Solicitation Procedures:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="solicitationProcedures" maxlength="5" name="solicitationProcedures" size="1" style="font:11px Arial" title="Solicitation Procedures"><option value="">Select One</option><option value="AS">Alternative Sources</option><option value="AE">Architect-Engineer FAR 6.102</option><option value="BR">Basic Research </option><option value="DDP">DFARS 226.72 Demo Project</option><option value="NP">Negotiated Proposal/Quote</option><option value="SSS">Only One Source</option><option value="SB">Sealed Bid</option><option value="SP1">Simplified Acquisition</option><option selected="true" value="MAFO">Subject to Multiple Award Fair Opportunity</option><option value="TS">Two Step</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblidvTypeOfSetAside">IDV Type Of Set Aside:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="idvTypeOfSetAside" name="idvTypeOfSetAside" readonly="true" size="59" specialfield="true" title="IDV Type Of Set Aside" type="text" value="No set aside used."/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblTypeOfSetAside">Type Of Set Aside:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="typeOfSetAside" maxlength="10" name="typeOfSetAside" size="1" style="font:11px Arial" title="Type Of Set Aside">
+<option selected="true" value="">Select One</option>
+<option value="8A">8a Competed</option><option value="8AN">8(a) Sole Source </option><option value="HS3">8(a) with HUBZone Preference</option><option value="BI">Buy Indian </option><option value="EDWOSB">Economically Disadvantaged Women Owned Small Business</option><option value="EDWOSBSS">Economically Disadvantaged Women Owned Small Business Sole Source</option><option value="ESB">Emerging Small Business Set Aside</option><option value="HMP">HBCU or MI Set-Aside -- Partial</option><option value="HMT">HBCU or MI Set-Aside -- Total</option><option value="HZC">HUBZone Set-Aside</option><option value="HZS">HUBZone Sole Source </option><option value="IEE">Indian Economic Enterprise</option><option value="ISBEE">Indian Small Business Economic Enterprise</option><option value="NONE">No set aside used.</option><option value="RSB">Reserved for Small Business</option><option value="SDVOSBS">SDVOSB Sole Source</option><option value="SDVOSBC">Service Disabled Veteran Owned Small Business Set-Aside</option><option value="SBP">Small Business Set Aside - Partial</option><option value="SBA">Small Business Set Aside - Total</option><option value="VSB">Very Small Business</option><option value="VSA">Veteran Set Aside</option><option value="VSS">Veteran Sole Source</option><option value="WOSB">Women Owned Small Business</option><option value="WOSBSS">Women Owned Small Business Sole Source</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblTypeOfSetAsideSource">Type Of Set Aside Source:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="typeOfSetAsideSource" name="typeOfSetAsideSource" readonly="true" size="22" specialfield="true" title="Type Of Set Aside Source" type="text" value="IDC"/>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblEvaluatedPreference">Evaluated Preference:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="evaluatedPreference" maxlength="6" name="evaluatedPreference" size="1" style="font:11px Arial" title="Evaluated Preference">
+<option value="">Select One</option>
+<option value="HSD">Combined HUB/SDB Preference </option><option value="HZE">HUBZone Price Evaluation </option><option selected="true" value="NONE">No Preference used</option><option value="SPS">SDB preferential consideration partial SB set aside</option><option value="SDA">SDB Price Evaluation </option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblResearch">SBIR/STTR:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="research" maxlength="3" name="research" size="1" style="font:11px Arial" title="SBIR/STTR">
+<option selected="true" value="">Select One</option>
+<option value="SR1">Small Business Innovation Research Program Phase I Action</option><option value="SR2">Small Business Innovation Research Program Phase II Action</option><option value="SR3">Small Business Innovation Research Program Phase III Action</option><option value="ST1">Small Technology Transfer Research Program Phase I</option><option value="ST2">Small Technology Transfer Research Program Phase II</option><option value="ST3">Small Technology Transfer Research Program Phase III</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblStatutoryExceptionToFairOpportunity">Fair Opportunity/Limited Sources:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="statutoryExceptionToFairOpportunity" maxlength="3" name="statutoryExceptionToFairOpportunity" onchange="this.blur();objSBA1331.onStatutoryExceptionToFairOpportunityChanged();" size="1" style="font:11px Arial" title="Fair Opportunity/Limited Sources"><option value="">Select One</option><option value="CSA">Competitive Set Aside</option><option selected="true" value="FAIR">Fair Opportunity given</option><option value="LSRC">FAR 16.505(b)(2)(i)(G) Limited Sources </option><option value="SSRC">FAR 16.505(b)(2)(i)(G) Single Source </option><option value="FOO">Follow-on Action Following Competitive Initial Action</option><option value="MG">Minimum Guarantee </option><option value="ONE">Only One Source - Other </option><option value="OSA">Other Statutory Authority</option><option value="SS">Sole Source</option><option value="URG">Urgency </option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblReasonNotCompeted" name="lblReasonNotCompeted">Other Than Full And Open Competition:</span>
+</td>
+<td colspan="3" scope="row" style="width:7%">
+<select class="disabledField" disabled="true" id="reasonNotCompeted" maxlength="3" name="reasonNotCompeted" size="1" style="font:11px Arial" title="Other Than Full And Open Competition"><option selected="true" value="">Select One</option><option value="UR">Unsolicited Research Proposal (FAR 6.302-1(a)(2)(i))</option><option value="FOC">Follow-On Contract (FAR 6.302-1(a)(2)(ii/iii))</option><option value="UNQ">Unique Source (FAR 6.302-1(b)(1))</option><option value="PDR">Patent or Data Rights (FAR 6.302-1(b)(2))</option><option value="UT">Utilities (FAR 6.302-1(b)(3))</option><option value="STD">Standardization (FAR 6.302-1(b)(4))</option><option value="BND">Brand Name Description (FAR 6.302-1(c))</option><option value="ONE">Only One Source-Other (FAR 6.302-1 other)</option><option value="URG">Urgency (FAR 6.302-2) </option><option value="MES">Mobilization, Essential R&amp;D (FAR 6.302-3)</option><option value="IA">International Agreement (FAR 6.302-4)</option><option value="OTH">Authorized by Statute (FAR 6.302-5(a)(2)(i))</option><option value="RES">Authorized Resale (FAR 6.302-5(a)(2)(ii))</option><option value="NS">National Security (FAR 6.302-6)</option><option value="PI">Public Interest (FAR 6.302-7)</option><option value="SP2">SAP Non-Competition (FAR 13)</option><option value="MPT">Less than or equal to the Micro-Purchase Threshold</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblLocalAreaSetAside">Local Area Set Aside:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="localAreaSetAside" name="localAreaSetAside" style="font:11px Arial" title="Local Area Set Aside">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblFedBizOpps">Contract Opportunities Notice:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="fedBizOpps" name="fedBizOpps" size="1" style="font:11px Arial" title="Contract Opportunities Notice">
+<option value="">Select One</option>
+<option value="N">No</option><option value="X">Not Applicable</option><option selected="true" value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblA76Action">A76 Action:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="A76Action" name="A76Action" size="1" style="font:11px Arial" title="A76 Action Flag">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCommercialItemAcquisitionProcedures">Commercial Products and Services Acquisition Procedures:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="commercialItemAcquisitionProcedures" name="commercialItemAcquisitionProcedures" size="1" style="font:11px Arial" title="Commercial Products and Services Acquisition Procedures">
+<option value="">Select One</option>
+<option value="A">Commercial Products/Services</option><option selected="true" value="D">Commercial Products/Services Procedures not used</option><option value="E">DoD - Section 803 CSO Procedures</option><option value="B">Products or services pursuant to FAR 12.102(f)</option><option value="C">Services pursuant to FAR 12.102(g)</option></select>
+</td>
+</tr>
+<tr>
+<td scope="row" style="width:33%">
+<span id="lblidvNumberOfOffersReceived">IDV Number of Offers:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="idvNumberOfOffersReceived" name="idvNumberOfOffersReceived" readonly="true" size="5" specialfield="true" title="IDV Number of Offers" type="text" value="22"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblNumberOfOffersReceived">Number Of Offers Received:</span>
+</td>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td scope="row">
+<input class="disabledField" id="numberOfOffersReceived" maxlength="3" name="numberOfOffersReceived" readonly="true" size="5" title="Number Of Offers Received" type="text" value="2"/>
+</td>
+<td scope="row">
+<span id="lblNumberOfOffersSource" style="margin-left:10px;">Number of Offers Source:</span>
+</td>
+<td scope="row">
+<input class="disabledField" id="numberOfOffersSource" name="numberOfOffersSource" readonly="true" size="22" specialfield="true" title="Number of Offers Source" type="text" value="This Action"/>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblSmallBusinessCompetitivenessDemonstrationProgram">Small Business Competitiveness Demonstration Program:</span>
+</td>
+<td scope="row">
+<input disabled="true" id="smallBusinessCompetitivenessDemonstrationProgram" name="smallBusinessCompetitivenessDemonstrationProgram" title="Small Business Competitiveness Demonstration Program Flag" type="checkbox"/>
+</td>
+</tr>
+<tr>
+<td scope="row">
+<span id="lblCommercialItemTestProgram">Simplified Procedures for Certain Commercial Products and Commercial Services:</span>
+</td>
+<td scope="row">
+<select class="disabledField" disabled="true" id="commercialItemTestProgram" name="commercialItemTestProgram" size="1" style="font:11px Arial" title="Simplified Procedures for Certain Commercial Products and Commercial Services">
+<option value="">Select One</option>
+<option selected="true" value="N">No</option><option value="Y">Yes</option></select>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="shead" scope="row" width="100%">Preference Programs / Other Data</td>
+</tr>
+<tr>
+<td scope="row">
+<table border="0" cellpadding="0" cellspacing="0" height="60" id="PrefProgramdatatable" width="100%">
+<tr>
+<td scope="row" style="height:5"></td>
+</tr>
+<tr>
+<td align="left" scope="row" width="30%">
+<span id="lblContractingOfficerBusinessSizeDetermination">Contracting Officer's Business Size Selection:</span>
+</td>
+<td align="left" scope="row" valign="middle" width="2%"></td>
+<td align="left" scope="row" valign="middle" width="100%">
+<table>
+<tr>
+<td>
+<select class="disabledField" disabled="true" id="contractingOfficerBusinessSizeDetermination" name="contractingOfficerBusinessSizeDetermination" size="1" style="font:11px Arial" title="Contracting Officer's Business Size Selection" value="O">
+<option value="">Select One</option>
+<option selected="true" value="O">Other than Small Business</option><option value="S">Small Business</option></select>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" scope="row" valign="middle">
+<span id="lblSubcontractPlan">Subcontract Plan:</span>
+</td>
+<td align="left" scope="row" valign="middle"></td>
+<td align="left" scope="row" valign="middle">
+<select class="disabledField" disabled="true" id="subcontractPlan" name="subcontractPlan" size="1" style="font:11px Arial" title="Subcontract Plan">
+<option value="">Select One</option>
+<option value="G">Commercial Subcontract Plan </option><option value="H">DOD Comprehensive Subcontract Plan </option><option selected="true" value="F">Individual Subcontract Plan </option><option value="A">Plan Not Included - No Subcontracting Possibilities </option><option value="B">Plan Not Required </option><option value="D">Plan Required - Incentive Included </option><option value="C">Plan Required - Incentive Not Included </option><option value="E">Plan Required (Pre 2004)</option></select>
+</td>
+</tr>
+<tr>
+<td align="left" scope="row" valign="middle">
+<span id="lblPricePreferncePercentDifference">Price Evaluation Percent Difference:</span>
+</td>
+<td align="left" scope="row" valign="middle"></td>
+<td align="left" scope="row" valign="middle">
+<input class="disabledField" id="pricePreferncePercentDifference" maxlength="2" name="pricePreferncePercentDifference" readonly="true" size="5" title="Price Evaluation Percent Difference" type="text" value="0"/>%
+													</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" id="agencyDIV" scope="row" width="100%">
+</td>
+</tr>
+<tr>
+<td scope="row" style="height:5">
+<input id="createdBy" name="createdBy" readonly="true" specialfield="true" type="hidden" value="PADDS.W56HZV@CS.ARMY.MIL"/>
+<input id="createdDate" name="createdDate" readonly="true" specialfield="true" type="hidden" value="2020-01-29 09:22:04"/>
+<input id="lastModifiedDate" name="lastModifiedDate" readonly="true" specialfield="true" type="hidden" value="2020-01-30 14:16:17"/>
+<input id="lastModifiedBy" name="lastModifiedBy" readonly="true" specialfield="true" type="hidden" value="PADDS.W56HZV@KO.ARMY.MIL"/>
+<input id="status" name="status" readonly="true" specialfield="true" type="hidden" value="F"/>
+<input id="isBaseDocument" name="isBaseDocument" readonly="true" specialfield="true" type="hidden" value="false"/>
+<input id="multipleOrSingleAwardIDV" name="multipleOrSingleAwardIDV" readonly="true" specialfield="true" type="hidden" value="M"/>
+<input contracttype="award" id="contractActionType" name="contractActionType" readonly="true" specialfield="true" type="hidden" value="C"/>
+<input id="correctionStep" name="correctionStep" readonly="true" specialfield="true" type="hidden" value="0"/>
+<input id="mode" name="mode" readonly="true" specialfield="true" type="hidden" value=""/>
+<input id="award_piid" name="award_piid" readonly="true" specialfield="true" type="hidden" value=""/>
+<input id="documentVersion" name="documentVersion" readonly="true" specialfield="true" type="hidden" value="1_5"/>
+<input id="departmentID" name="departmentID" readonly="true" specialfield="true" type="hidden" value="4700"/>
+<input id="refIDVDepartmentID" name="refIDVDepartmentID" readonly="true" specialfield="true" type="hidden" value=""/>
+<input id="clodDate" name="clodDate" readonly="true" specialfield="true" type="hidden"/>
+<input id="isPart8BPACall" name="isPart8BPACall" readonly="true" specialfield="true" type="hidden"/>
+<input id="refIDVTypeOfSetAside" name="refIDVTypeOfSetAside" readonly="true" specialfield="true" type="hidden" value=""/>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
+<script id="f5_cspm">(function(){var f5_cspm={f5_p:'PACDIHHOLFJJFOCBBHMAJIGCIENOAABJBJHJOFJFDJIALGNHNLAEIPLGENOLCLEEDPGBGPNPAAIJBKLBDALAJKMBAAAPNBIMJBHIJJCKMFKIMHFGFDGHJDLEJKOMFDFA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1025472108aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>
