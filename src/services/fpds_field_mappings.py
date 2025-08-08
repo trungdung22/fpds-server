@@ -13,7 +13,8 @@ class FPDSFieldMapper:
         self.field_mappings = self._create_field_mappings()
         self.search_aliases = self._create_search_aliases()
 
-    def _create_field_mappings(self) -> Dict[str, Dict]:
+    @classmethod
+    def _create_field_mappings(cls) -> Dict[str, Dict]:
         """
         Create comprehensive field mappings with descriptions, categories, and search terms
         """
@@ -769,7 +770,8 @@ class FPDSFieldMapper:
             }
         }
 
-    def _create_search_aliases(self) -> Dict[str, List[str]]:
+    @classmethod
+    def _create_search_aliases(cls) -> Dict[str, List[str]]:
         """
         Create search aliases for common terms and agencies
         """

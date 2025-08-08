@@ -1,0 +1,17 @@
+substitutions:
+  _PROJECT_ID: 'cloudmatos-saas-demo'
+  _REGION: 'us-east1'
+  _REPOSITORY: 'fpds-repo'
+  _IMAGE_NAME: 'fpds-api'
+
+steps:
+  # Step 1: Build the Docker image using variables
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE_NAME}:latest', '.']
+
+  # Step 2: Push the Docker image to Google Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE_NAME}:latest']
+
+images:
+  - '${_REGION}-docker.pkg.dev/${_PROJECT_ID}/${_REPOSITORY}/${_IMAGE_NAME}:latest'
