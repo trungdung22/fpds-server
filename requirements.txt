@@ -1,0 +1,24 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# MongoDB driver
+pymongo==4.6.0
+
+# OpenAI client
+openai==1.3.7
+
+# Data handling and validation
+pydantic==2.5.0
+
+# HTTP client for external requests
+httpx==0.25.2
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# CORS middleware (included with FastAPI but listed for clarity)
+# No additional package needed as it's part of fastapi
+
+# Logging (built-in, no additional package needed)
+# datetime, json, os, sys, re, typing (all built-in) 
